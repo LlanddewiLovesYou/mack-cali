@@ -1,16 +1,18 @@
 .navbar {
   min-height: 35px;
+  border-radius: none
 }
 
 .navbar-default {
   background-image: none;
   background-color: #d6edee;
   border: none;
-  color: green;
+  /* color: green; */
   margin: 0;
   width: 100%;
   box-shadow: none;
   height: 35px;
+  border-radius: none;
 }
 
 .navbar-nav {
@@ -31,4 +33,23 @@
   margin-right: 20px;
   height: 30px;
   background-color: white
+}
+
+#annual-link {
+  color: #39a3ad
+}
+
+#downloads-div {
+  background-color: #b8dfe0;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar-mobile-button .navbar-toggle{
+  border: none;
+  background-color: none;
+}
+
+#mack-logo {
+  margin-left: 50px
 }

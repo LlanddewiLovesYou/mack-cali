@@ -1,0 +1,30 @@
+
+.splash-image-container {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash-image {
+  width: 100vw;
+}
+
+.read-stockholders {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  top: 500px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.arrow {
+  margin-left: 10px;
+  height: 11px;
+}
