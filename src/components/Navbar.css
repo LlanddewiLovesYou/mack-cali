@@ -1,0 +1,34 @@
+.navbar {
+  min-height: 35px;
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: #d6edee;
+  border: none;
+  color: green;
+  margin: 0;
+  width: 100%;
+  box-shadow: none;
+  height: 35px;
+}
+
+.navbar-nav {
+  float: none;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  max-height: 35px
+}
+
+.navbar-nav li {
+  width: 185px;
+  text-align: center;
+}
+
+.navbar-toggle {
+  margin-top: 2px;
+  margin-right: 20px;
+  height: 30px;
+  background-color: white
+}
