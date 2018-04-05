@@ -1,8 +1,7 @@
 import React from 'react';
 import '../assets/stylesheets/Navbar.css'
 import Logo from "../assets/images/mack-cali.png"
-import { Link } from 'react-router-dom'
-
+import { Link, NavLink, Switch, Route } from 'react-router-dom';
 
 class Navbar extends React.Component {
 
@@ -41,12 +40,12 @@ class Navbar extends React.Component {
         </div>
         <div className='navbar-collapse collapse'>
           <ul className='nav navbar-nav'>
-            <li><Link to='/'  id='annual-link'>2017 ANNUAL REPORT</Link></li>
-            <li><Link to='/aboutus'>About Us</Link></li>
-            <li><Link to='#'>Year-end Highlights</Link></li>
-            <li><Link to='#'>Stockholders&#39; letter</Link></li>
-            <li><Link to='#'>Featured Properties</Link></li>
-            <li><Link to='#' onClick={() => this.downloadToggle()}>Downloads</Link></li>
+            <li><Link  to='/'  id='annual-link'>2017 ANNUAL REPORT</Link></li>
+            <li><NavLink className='inactive' activeClassName='active' to='/AboutUs'>About Us</NavLink></li>
+            <li><NavLink className='inactive' activeClassName='active' to='/YearEndHighlights'>Year-end Highlights</NavLink></li>
+            <li><NavLink className='inactive' activeClassName='active' to='/Stockholders'>Stockholders&#39; letter</NavLink></li>
+            <li><NavLink className='inactive' activeClassName='active' to='/FeaturedProperties'>Featured Properties</NavLink></li>
+            <li><NavLink className='inactive' activeClassName='active' to='#' onClick={() => this.downloadToggle()}>Downloads</NavLink></li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,14 @@
+.construction-container {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 100px;
+}
+
+.construction-image {
+  margin: 0 auto;
+}
