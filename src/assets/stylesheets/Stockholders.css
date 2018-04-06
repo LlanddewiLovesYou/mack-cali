@@ -9,7 +9,8 @@
   /* grid-template-columns: 200px 1fr 200px; */
   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
   margin: 0 200px;
-  margin-top: 85px
+  margin-top: 85px;
+  position:relative;
 }
 
 summary {
@@ -118,12 +119,12 @@ summary {
 }
 
 #seventeen {
-  position:relative;
+  position:absolute;
   grid-column: 2
 }
 
 #fiftyeight {
-  position:relative;
+  position:absolute;
   grid-column: 3;
   /* top: 300px */
 }

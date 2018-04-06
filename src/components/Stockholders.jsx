@@ -23,6 +23,8 @@ class Stockholders extends React.Component {
             <div id='stockholder-greeting'>
               To Our Stockholders:
             </div>
+            <img id='seventeen' src={seventeen}/>
+            <img id='fiftyeight' src={fiftyeight}/>
 
 
 
@@ -78,8 +80,6 @@ class Stockholders extends React.Component {
             </div>
             <div className='sig-date'>April XX, 2018</div>
           </summary>
-          <img id='seventeen' src={seventeen}/>
-          <img id='fiftyeight' src={fiftyeight}/>
       </main>
     )
   }

@@ -39,9 +39,9 @@ class Navbar extends React.Component {
           </button>
         </div>
         <div className='navbar-collapse collapse'>
-          <ul className='nav navbar-nav'>
+          <ul id="navbar-links" className='nav navbar-nav'>
             <li><Link  to='/'  id='annual-link'>2017 ANNUAL REPORT</Link></li>
-            <li><NavLink className='inactive' activeClassName='active' to='/AboutUs'>About Us</NavLink></li>
+            <li><NavLink activeClassName='active' to='/AboutUs'>About Us</NavLink></li>
             <li><NavLink className='inactive' activeClassName='active' to='/YearEndHighlights'>Year-end Highlights</NavLink></li>
             <li><NavLink className='inactive' activeClassName='active' to='/Stockholders'>Stockholders&#39; letter</NavLink></li>
             <li><NavLink className='inactive' activeClassName='active' to='/FeaturedProperties'>Featured Properties</NavLink></li>
