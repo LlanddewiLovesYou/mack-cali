@@ -44,6 +44,8 @@
 }
 
 .navbar-default .navbar-nav > li > a {
+  /* color:inherit; */
+  /* opacity: 0; */
 
 }
 .active .navbar-default .navbar-nav > li > a {
@@ -51,7 +53,7 @@
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  /* color: white; */
+  color: white;
   background-color: #008996
 }
 

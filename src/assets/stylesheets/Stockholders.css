@@ -4,3 +4,126 @@
   margin: 0 auto;
   color: black;
 }
+
+.stockholder-container {
+  /* grid-template-columns: 200px 1fr 200px; */
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  margin: 0 200px;
+  margin-top: 85px
+}
+
+summary {
+  /* display: grid; */
+}
+
+#first-paragraph, #stockholder-greeting {
+  margin-top: 85px;
+  color: #008996
+}
+
+#first-paragraph {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#stockholder-greeting {
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.stockholder-container p {
+  margin: 10px 265px;
+  font-size:16px;
+}
+
+.signature-container {
+  margin: 0 265px;
+  display: flex;
+  flex-direction: row;
+  /* font-size: 20px; */
+}
+
+.signature {
+  margin-right: 75px;
+  margin-left: none;
+  margin-bottom: 30px;
+  font-size: 16px;
+  /* font-weight: lighter; */
+}
+
+.signature img {
+  width: 200px;
+}
+
+.signature div {
+  display: inline-block;
+  color:#008996;
+}
+
+.sig-date {
+  margin: 10px 265px;
+  margin-bottom: 70px;
+
+}
+
+.stockholder-stats-container {
+  width: 175px;
+
+}
+
+.stackholder-stats {
+
+}
+
+.dollar {
+  font-size: 75px;
+  font-weight: lighter;
+  display: inline-block;
+  color: #008996;
+}
+
+.stat-number {
+  font-size: 85px;
+  /* font-weight: bold; */
+  color: #008996;
+  /* display: inline-block; */
+}
+
+.stat-number img {
+  height: 60px;
+  display:inline
+}
+
+#by-2018 {
+  color: #008996;
+  font-size: 18px;
+}
+
+.stats-title {
+  font-size: 16px;
+  color: #aab73d;
+  margin-top: 25px;
+  margin-bottom: 15px
+}
+
+.stats-copy {
+  font-size: 14px;
+
+}
+
+.stockholder-stats-container hr {
+  margin-top: 10px;
+  border-top: 1px solid black;
+  width: 175px
+}
+
+#seventeen {
+  position:relative;
+  grid-column: 2
+}
+
+#fiftyeight {
+  position:relative;
+  grid-column: 3;
+  /* top: 300px */
+}
