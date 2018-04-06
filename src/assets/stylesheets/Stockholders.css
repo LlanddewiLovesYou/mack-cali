@@ -120,11 +120,14 @@ summary {
 
 #seventeen {
   position:absolute;
-  grid-column: 2
+  top: 480px;
+  left: 50px
+
 }
 
 #fiftyeight {
   position:absolute;
-  grid-column: 3;
+  top: 200px;
+  left: 685px
   /* top: 300px */
 }
