@@ -1,11 +1,39 @@
-.carousel {
 
+.property-component {
+  width:100vw;
+  margin: 0 auto;
+  height: 90vh;
+  position: relative;
+}
+
+.background-1 {
+  background-image: url("../images/property1.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.background-2 {
+  background-image: url("../images/property2.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.background-3 {
+  background-image: url("../images/property3.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .property1-copy-container {
   position: absolute;
   z-index: 3;
-  max-width: 465;
+  max-width: 465px;
   top: 10px;
   left: 785px;
 }
@@ -13,7 +41,7 @@
 .property2-copy-container {
   position: absolute;
   z-index: 3;
-  max-width: 465;
+  max-width: 465px;
   top: 65px;
   left: 630px;
 }
@@ -21,14 +49,15 @@
 .property3-copy-container {
   position: absolute;
   z-index: 3;
-  max-width: 465;
-  top: 640px;
-  left: 540px;
+  max-width: 465px;
+  top: 540px;
+  left: 900px;
 }
 
-.property1-container img {
-  /* position: relative; */
-}
+/* .property-container {
+  width: 100vw;
+  height: auto;
+} */
 
 .property-title {
   font-size: 18px;
@@ -65,7 +94,7 @@
 
 .bubble {
   color: white;
-  position: relative;
+  position: absolute;
   border-radius: 50%;
   padding: auto auto;
   display: flex;
@@ -80,7 +109,7 @@
   background-color: rgba(185, 122, 60, 0.85);
   height: 230px;
   width: 230px;
-  top: -805px;
+  top: 55px;
   left: 310px;
 }
 
@@ -88,7 +117,7 @@
   background-color: rgba(96, 30, 106, 0.85);
   height: 160px;
   width: 160px;
-  top: -825px;
+  top: 265px;
   left: 585px
 }
 
@@ -96,7 +125,7 @@
   background-color: rgba(149, 166, 39, 0.85);
   height: 200px;
   width: 200px;
-  top: -700px;
+  top: 545px;
   left: 800px
 }
 
@@ -104,7 +133,7 @@
   background-color: rgba(8, 132, 147, 0.85);
   height: 200px;
   width: 200px;
-  top: -1050px;
+  top: 355px;
   left: 50px
 }
 
@@ -112,7 +141,7 @@
   background-color: rgba(185, 122, 60, 0.85);
   height: 200px;
   width: 200px;
-  top: -805px;
+  top: 55px;
   left: 360px;
 }
 
@@ -120,7 +149,7 @@
   background-color: rgba(96, 30, 106, 0.85);
   height: 160px;
   width: 160px;
-  top: -600px;
+  top: 450px;
   left: 1015px
 }
 
@@ -128,6 +157,6 @@
   background-color: rgba(8, 132, 147, 0.85);
   height: 160px;
   width: 160px;
-  top: -875px;
+  top: 335px;
   left: 80px
 }

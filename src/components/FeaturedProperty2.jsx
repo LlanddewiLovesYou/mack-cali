@@ -13,11 +13,9 @@ class FeaturedProperty2 extends React.Component {
 
   render() {
     return (
-      <main>
+      <main className='property-component background-2'>
 
         <div>
-
-          <img src={property2}/>
 
             <div className='property2-copy-container light-copy'>
               <div className='property-title'>PORT IMPERIAL</div>

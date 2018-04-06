@@ -13,10 +13,10 @@ class FeaturedProperty3 extends React.Component {
 
   render() {
     return (
-      <main>
+      <main className='property-component background-3'>
 
         <div className='property3-container'>
-          <img src={property3}/>
+    
 
             <div className='property3-copy-container light-copy'>
               <div className='property-title'>SUBURBAN IMPROVEMENTS</div>

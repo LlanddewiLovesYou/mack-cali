@@ -15,10 +15,7 @@ class FeaturedProperty1 extends React.Component {
 
   render() {
     return (
-      <main>
-        <div className='property1-container'>
-
-          <img src={property1}/>
+      <main className='property-component background-1'>
 
           <div className='property1-copy-container'>
             <div className='property-title'>HARBORSIDE</div>
@@ -52,7 +49,7 @@ class FeaturedProperty1 extends React.Component {
           and out. Harborside<br/>best-in-class working
           </div>
 
-        </div>
+
       </main>
     )
   }

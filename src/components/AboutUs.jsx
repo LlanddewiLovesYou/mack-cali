@@ -13,7 +13,7 @@ class AboutUs extends React.Component {
   render() {
     return (
       <main>
-        <Navbar />
+        
         <div className='about'>
           <div className='about-container'>
             <div className='about-heading'>

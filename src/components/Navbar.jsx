@@ -70,12 +70,12 @@ class Navbar extends React.Component {
         </div>
         <div className='navbar-collapse collapse'>
           <ul className='nav navbar-nav'>
-            <li><a  id='annual-link' href='#'>2017 ANNUAL REPORT</a></li>
-            <li><a href='#'>About Us</a></li>
-            <li><a href='#'>Year-end Highlights</a></li>
-            <li><a href='#'>Stockholders&#39; letter</a></li>
-            <li><a href='#'>Featured Properties</a></li>
-            <li><a onClick={() => this.downloadToggle()} href='#'>Downloads</a></li>
+            <li><Link  to='/'  id='annual-link'>2017 ANNUAL REPORT</Link></li>
+            <li><NavLink activeClassName='active' to='/AboutUs'>About Us</NavLink></li>
+            <li><NavLink className='inactive' activeClassName='active' to='/YearEndHighlights'>Year-end Highlights</NavLink></li>
+            <li><NavLink className='inactive' activeClassName='active' to='/Stockholders'>Stockholders&#39; letter</NavLink></li>
+            <li><NavLink className='inactive' activeClassName='active' to='/FeaturedProperties'>Featured Properties</NavLink></li>
+            <li><a className='inactive' activeClassName='active' to='#' onClick={() => this.downloadToggle()}>Downloads</a></li>
           </ul>
         </div>
       </div>

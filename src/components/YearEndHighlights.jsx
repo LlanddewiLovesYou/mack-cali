@@ -13,7 +13,7 @@ class YearEndHighlights extends React.Component {
   render() {
     return (
       <main>
-        <Navbar />
+      
         <div className='construction-container'>
           <img src={graphConstruction} className='construction-image'></img>
         </div>

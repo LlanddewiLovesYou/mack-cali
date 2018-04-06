@@ -18,7 +18,7 @@ class Stockholders extends React.Component {
   render() {
     return (
       <main>
-        <Navbar />
+      
           <summary className='stockholder-container'>
             <div id='stockholder-greeting'>
               To Our Stockholders:

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Route, Redirect, Switch, Link, HashRouter } from 'react-router-dom';
+import Navbar from "./components/Navbar";
 import SplashPage from './components/SplashPage.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import Stockholders from './components/Stockholders.jsx';
@@ -12,6 +13,7 @@ class App extends Component {
     return (
       <HashRouter>
       <div className="App">
+        <Navbar />
         <Switch>
           <Route exact path='/' component={SplashPage} />
           <Route exact path='/AboutUs' component={AboutUs} />

@@ -16,15 +16,12 @@ class FeaturedProperties extends React.Component {
 
   render() {
     return (
-      <main>
-        <Navbar />
-        <div>
-          <Carousel className='carousel'>
-            <FeaturedProperty1 />
-            <FeaturedProperty2 />
-            <FeaturedProperty3 />
-          </Carousel>
-        </div>
+      <main style={{width: '100vw', height: '90vh'}}>
+        <Carousel style={{width: '100vw', height: '90vh'}} id='carousel'>
+          <FeaturedProperty1 className='property-component' />
+          <FeaturedProperty2 className='property-component' />
+          <FeaturedProperty3 className='property-component' />
+        </Carousel>
       </main>
     )
   }
@@ -34,3 +31,6 @@ class FeaturedProperties extends React.Component {
 
 
 export default FeaturedProperties
+// <div>1</div>
+// <div>2</div>
+// <div>3</div>
