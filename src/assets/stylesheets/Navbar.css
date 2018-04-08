@@ -1,9 +1,10 @@
 .navbar {
   min-height: 35px;
-  border-radius: none
+  border-radius: none;
+  color: black;
 }
 
-.navbar-default {
+.ian-nav {
   background-image: none;
   background-color: #d6edee;
   border: none;
@@ -36,17 +37,24 @@
   color: black;
 }
 
+#downloads {
+  cursor: pointer
+}
 .active {
   padding: none;
   color: white;
   background-color: #008996
 }
 
-.active .navbar-default .navbar-nav > li > a {
+.active .ian-nav .navbar-nav > li > a {
   color: white;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.ian-nav .navbar-nav > li > a:hover, .ian-nav .navbar-nav > li > a:focus {
+  color: white;
+  background-color: #008996;
+}
+.ian-nav .navbar-nav > li > a:hover, .ian-nav .navbar-nav > li > a:active {
   color: white;
   background-color: #008996;
 }
@@ -58,6 +66,10 @@ a {
 .navbar-nav li {
   width: 185px;
   text-align: center;
+}
+
+.navbar-nav li:active {
+  color:white;
 }
 
 .navbar-toggle {

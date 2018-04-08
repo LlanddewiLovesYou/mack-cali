@@ -12,6 +12,10 @@ class FeaturedProperty2 extends React.Component {
   }
 
   render() {
+    let bubbleClass = 'bubble'
+    if (this.props.slideIdx === this.props.currentSlide) {
+      bubbleClass = 'bubble animated zoomIn'
+    }
     return (
       <main className='property-component background-2'>
 
@@ -35,14 +39,14 @@ class FeaturedProperty2 extends React.Component {
               <div className='property-number'>3,256units<span className='sq-ft'>Completed</span></div>
             </div>
 
-            <div className='bubble' id='orange2'>
+            <div className={bubbleClass} id='orange2'>
               Weehawken<br/>Ranked #1<br/>best places to raise a<br/>family in Hudson County
               <br/><br/>Source: Niche Media<br/>2018 Best Places
             </div>
-            <div className='bubble' id='purple2'>
+            <div className={bubbleClass} id='purple2'>
               Jersey City<br/>Ranks 5th<br/>for best public<br/>transportation in the U.S.<br/>--Business Insider
             </div>
-            <div className='bubble' id='aqua2'>
+            <div className={bubbleClass} id='aqua2'>
               West New York Earns<br/>Walk Score: 94<br/><br/>Source: Walk Score
             </div>
 

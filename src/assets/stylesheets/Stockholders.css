@@ -33,12 +33,13 @@ summary {
 }
 
 .stockholder-container p {
-  margin: 10px 265px;
+  /* margin: 10px 265px; */
+  margin-left: 20px;
   font-size:16px;
 }
 
 .signature-container {
-  margin: 0 265px;
+  /* margin: 0 265px; */
   display: flex;
   flex-direction: row;
   /* font-size: 20px; */
@@ -62,8 +63,8 @@ summary {
 }
 
 .sig-date {
-  margin: 10px 265px;
-  margin-bottom: 70px;
+  /* margin: 10px 265px;
+  margin-bottom: 70px; */
 
 }
 
@@ -120,14 +121,15 @@ summary {
 
 #seventeen {
   position:absolute;
-  top: 480px;
-  left: 50px
+  top: 175px;
+  left: 0;
+  /* padding-right: 300px */
 
 }
 
 #fiftyeight {
-  position:absolute;
-  top: 200px;
-  left: 1000px
-  /* top: 300px */
+  position: absolute;
+  top: 85px;
+  left: 0px;
+
 }

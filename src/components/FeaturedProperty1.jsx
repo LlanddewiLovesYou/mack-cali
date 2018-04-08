@@ -11,9 +11,22 @@ class FeaturedProperty1 extends React.Component {
 
   constructor(props) {
     super(props)
+    const bubbleArray = document.getElementsByClassName('bubble')
+    this.state = {
+      animation: true
+    }
+  }
+
+  componentDidMount() {
+    // const bubbleArray = document.getElementsByClassName('bubble')
+
   }
 
   render() {
+    let bubbleClass = 'bubble'
+    if (this.props.slideIdx === this.props.currentSlide) {
+      bubbleClass = 'bubble animated zoomIn'
+    }
     return (
       <main className='property-component background-1'>
 
@@ -31,20 +44,20 @@ class FeaturedProperty1 extends React.Component {
             <div className='property-number'>4.3million<span className='sq-ft'>Sq. Ft.</span></div>
           </div>
 
-          <div className='bubble' id='orange1'>
+          <div className={bubbleClass} id='orange1'>
             The drastically transformed<br/>promanade tatsefully combines<br/>multiuse communal
             spaces,<br/>collaborative lounges and a<br/>stylish floating stage designated<br/>
             for events on the water.
           </div>
-          <div className='bubble' id='purple1'>
+          <div className={bubbleClass} id='purple1'>
             Jersey City<br/>Ranks 5th<br/>for best public<br/>transportation in the U.S.<br/>--Business Insider
           </div>
-          <div className='bubble' id='green1'>
+          <div className={bubbleClass} id='green1'>
             The extended promanade<br/>offers waterfront dining and retail<br/>options, designated areas
             for<br/>events, pop-ups and programming,<br/>and mutiple viewing points<br/>with spectacular unobstructed<br/>views
             of New York City.
           </div>
-          <div className='bubble' id='aqua1'>
+          <div className={bubbleClass} id='aqua1'>
             With all-new infrastructure,<br/>superior connectivity<br/>comprehensive updates inside<br/>
           and out. Harborside<br/>best-in-class working
           </div>

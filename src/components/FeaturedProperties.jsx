@@ -12,15 +12,32 @@ class FeaturedProperties extends React.Component {
 
   constructor(props) {
     super(props)
+    this.state ={
+      slideIndex: 0
+    }
   }
 
   render() {
     return (
       <main style={{width: '100vw', height: '90vh'}}>
-        <Carousel style={{width: '100vw', height: '90vh'}} id='carousel'>
-          <FeaturedProperty1 className='property-component' />
-          <FeaturedProperty2 className='property-component' />
-          <FeaturedProperty3 className='property-component' />
+        <Carousel
+          style={{width: '100vw', height: '90vh'}}
+          id='carousel'
+          slideIndex={this.state.slideIndex}
+          afterSlide={(slideIndex) => this.setState({slideIndex})}
+          >
+          <FeaturedProperty1
+            currentSlide={this.state.slideIndex}
+            slideIdx={0}
+            className='property-component' />
+          <FeaturedProperty2
+            currentSlide={this.state.slideIndex}
+            slideIdx={1}
+            className='property-component' />
+          <FeaturedProperty3
+            currentSlide={this.state.slideIndex}
+            slideIdx={2}
+            className='property-component' />
         </Carousel>
       </main>
     )
