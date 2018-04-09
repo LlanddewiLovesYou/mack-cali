@@ -25,6 +25,8 @@ render() {
           cutoutPercentage: 65,
           legend: {display: false},
           responsive: false,
+          tooltips: {enabled:false},
+          events: [],
           pieceLabel: {
             render: 'percentage',
             fontColor: 'white',

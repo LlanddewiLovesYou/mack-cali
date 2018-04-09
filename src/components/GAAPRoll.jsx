@@ -8,8 +8,8 @@ class GAAPRoll extends React.Component {
     this.state = {
       gaap: 17.9,
       cash: 9.6,
-      gaapCount: 15.0,
-      cashCount: 7.0,
+      gaapCount: 15.6,
+      cashCount: 7.5,
       complete: false,
     }
     this.incrementCounts = this.incrementCounts.bind(this)

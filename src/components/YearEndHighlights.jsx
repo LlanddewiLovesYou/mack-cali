@@ -31,10 +31,17 @@ class YearEndHighlights extends React.Component {
           <IncreasedRoselandInt />
           <div className='col-md-9 col-md-offset-2' id='first-row'></div>
         </div>
+        <div className='row donut-head-flex'>
+          <div className='col-md-3 donut-heading'>
+            Increased Portfolio Composition
+          </div>
+        </div>
         <div className='row'>
-          <Dough2015 />
-          <Dough2016 />
-          <Dough2017 />
+          <div className='col-md-10 col-md-offset-1'>
+            <Dough2015 />
+            <Dough2016 />
+            <Dough2017 />
+          </div>
         </div>
         <div className='row'>
           <DoughLegend />

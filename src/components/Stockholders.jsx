@@ -26,10 +26,7 @@ class Stockholders extends React.Component {
 
 
             <div className='row'>
-              <div className="col-md-2">
-                <img id='seventeen' src={seventeen}/>
-              </div>
-              <div className='col-md-8'>
+              <div className='col-md-8 col-md-offset-2'>
               <p id='first-paragraph'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -71,9 +68,6 @@ class Stockholders extends React.Component {
               </p>
               <br/>
 
-                </div>
-                <div className="col-md-2">
-                  <img id='fiftyeight' src={fiftyeight}/>
                 </div>
             </div>
             <div className="row">
@@ -117,4 +111,13 @@ export default Stockholders
 //   <div className='stats-title'>Title Here</div>
 //   <div className='stats-copy'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 //   eiusmod tempor incididunt.</div>
+// </div>
+
+
+// <div className="col-md-2">
+//   <img id='seventeen' src={seventeen}/>
+// </div>
+
+// <div className="col-md-2">
+//   <img id='fiftyeight' src={fiftyeight}/>
 // </div>

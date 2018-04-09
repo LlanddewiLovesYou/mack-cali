@@ -41,16 +41,30 @@
 }
 
 .chart-heading {
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 10px;
   font-size: 16px;
+  margin-left: 25px;
+}
+
+.donut-head-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.donut-heading {
+ text-align: center;
+ font-size: 16px;
+ margin-left: 115px
+
 }
 
 .donut-legend {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin: 30px auto;
+  margin-top: 20px;
   border-bottom: 1px solid black;
   /* width: 650px */
 }
@@ -65,7 +79,8 @@
 .legend-label {
   display: flex;
   flex-direction: row;
-  padding: 30px 0;
+  padding: 20px 30px;
+  /* padding-bottom: 15px */
   /* margin: 0 30px */
   /* text-align: textBaseline; */
 

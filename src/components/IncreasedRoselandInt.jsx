@@ -31,6 +31,7 @@ class IncreasedRoselandInt extends React.Component {
             options={{
               legend: {display: false},
               tooltips: {enabled:false},
+              events: [],
               scales: {
                 yAxes: [{display: false,
                   ticks: {beginAtZero: true, max: 80}

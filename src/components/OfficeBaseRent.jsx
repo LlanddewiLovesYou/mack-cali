@@ -33,6 +33,7 @@ class OfficeBaseRent extends React.Component {
           options={{
             legend: { display: false },
             tooltips: { enabled: false },
+            events: [],
             scales: {
               yAxes: [
                 {

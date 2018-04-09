@@ -14,7 +14,7 @@ class ResidentPortfolioGrow extends React.Component {
   render() {
     return (
         <div className='col-md-5 col-md-offset-2'>
-          <div className="chart-heading">Increased Roseland Ownership Interest</div>
+          <div className="chart-heading">Residential Portfolio Growing FFO Contribution</div>
           <Bar data={{
               labels: ['2017', '2018', '2019', '2020'],
               datasets: [{
@@ -32,6 +32,7 @@ class ResidentPortfolioGrow extends React.Component {
             options={{
               legend: {display: false},
               tooltips: {enabled:false},
+              events: [],
               scales: {
                 yAxes: [{display: false,
                   ticks: {beginAtZero: true, max: 300}
