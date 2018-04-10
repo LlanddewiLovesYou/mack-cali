@@ -16,7 +16,7 @@
 
 .background-2 {
   background-image: url("../images/property2.png");
-  background-position: top center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -24,7 +24,7 @@
 
 .background-3 {
   background-image: url("../images/property3.png");
-  background-position: top center;
+  background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -34,30 +34,26 @@
   position: absolute;
   z-index: 3;
   max-width: 465px;
-  top: 10px;
-  left: 785px;
+  top: 5%;
+  right: 5%
 }
 
 .property2-copy-container {
   position: absolute;
   z-index: 3;
   max-width: 465px;
-  top: 65px;
-  left: 630px;
+  top: 5%;
+  right: 25%
 }
 
 .property3-copy-container {
   position: absolute;
   z-index: 3;
   max-width: 465px;
-  top: 540px;
-  left: 900px;
+  top: 75%;
+  right:10%;
 }
 
-/* .property-container {
-  width: 100vw;
-  height: auto;
-} */
 
 .property-title {
   font-size: 18px;
@@ -110,7 +106,7 @@
   height: 230px;
   width: 230px;
   top: 55px;
-  left: 310px;
+  right: 60%
 }
 
 #purple1 {
@@ -118,15 +114,15 @@
   height: 160px;
   width: 160px;
   top: 265px;
-  left: 585px
+  left: 50%
 }
 
 #green1 {
   background-color: rgba(149, 166, 39, 0.85);
-  height: 200px;
-  width: 200px;
+  height: 220px;
+  width: 220px;
   top: 545px;
-  left: 800px
+  right: 20%
 }
 
 #aqua1 {
@@ -134,7 +130,7 @@
   height: 200px;
   width: 200px;
   top: 355px;
-  left: 50px
+  left: 10%
 }
 
 #orange2 {
@@ -142,21 +138,36 @@
   height: 200px;
   width: 200px;
   top: 55px;
-  left: 360px;
+  right: 60%;
 }
 
 #purple2 {
   background-color: rgba(96, 30, 106, 0.85);
   height: 160px;
   width: 160px;
-  top: 450px;
-  left: 1015px
+  top: 60%;
+  right: 20%;
 }
 
 #aqua2 {
   background-color: rgba(8, 132, 147, 0.85);
   height: 160px;
   width: 160px;
-  top: 335px;
-  left: 80px
+  top: 50%;
+  left: 15%
+}
+
+.chevron {
+  height: 75px;
+  width: 75px;
+  filter: opacity(.75)
+}
+
+.chevron:hover {
+  filter:brightness(2);
+  color:black;
+}
+
+.current-slide {
+  /* height: 100px */
 }

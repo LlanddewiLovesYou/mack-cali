@@ -15,6 +15,7 @@
   height: 35px;
   border-radius: none;
   display: flex;
+  justify-content: center;
 }
 
 .navbar-nav {
@@ -38,7 +39,7 @@
 }
 
 #downloads {
-  cursor: pointer
+  cursor: pointer;
 }
 .active {
   padding: none;
@@ -87,6 +88,7 @@ a {
   background-color: #b8dfe0;
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 #navbar-mobile-button .navbar-toggle{

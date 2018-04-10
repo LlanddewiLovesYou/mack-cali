@@ -61,10 +61,10 @@ class GAAPRoll extends React.Component {
     return (
       <main className='col-md-3'>
         <div className='gaap-container'>
-          <div className='gaap-label'>GAAP ROLLUP</div>
+          <div className='gaap-label'>GAAP Rental Rate Rollup<br/>(Excluding Non-Core)</div>
           <div className='gaap-item' id='gaap'>{Math.round( this.state.gaapCount * 10 ) / 10}%</div>
-          <hr/>
-          <div className='gaap-label'>CASH ROLLUP</div>
+          <hr className='hr'/>
+          <div className='gaap-label'>Cash Rental Rate Rollup<br/>(Excluding Non-Core)</div>
           <div className='gaap-item' id='cash'>{Math.round( this.state.cashCount * 10 ) / 10}%</div>
         </div>
       </main>

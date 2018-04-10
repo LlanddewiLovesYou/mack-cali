@@ -5,13 +5,14 @@ import graphConstruction from '../assets/images/graphconstruction.png'
 import Navbar from './Navbar'
 import OfficeBaseRent from './OfficeBaseRent'
 import IncreasedRoselandInt from './IncreasedRoselandInt'
-import ResidentPortfolioGrow from './ResidentPortfolioGrow'
+import RoselandOperating from './RoselandOperating'
 import Dough2015 from './Dough2015'
 import Dough2016 from './Dough2016'
 import Dough2017 from './Dough2017'
 import DoughLegend from './DoughLegend'
 import GAAPRoll from './GAAPRoll'
 import CompletedSales from './CompletedSales'
+import 'chart.piecelabel.js/build/Chart.PieceLabel.min.js';
 
 class YearEndHighlights extends React.Component {
 
@@ -28,7 +29,7 @@ class YearEndHighlights extends React.Component {
         <div className='row'>
           <OfficeBaseRent />
           <GAAPRoll />
-          <IncreasedRoselandInt />
+          <CompletedSales />
           <div className='col-md-9 col-md-offset-2' id='first-row'></div>
         </div>
         <div className='row donut-head-flex'>
@@ -47,8 +48,10 @@ class YearEndHighlights extends React.Component {
           <DoughLegend />
         </div>
         <div className='row'>
-          <ResidentPortfolioGrow />
-          <CompletedSales />
+          <div className='col-md-9 col-md-offset-4'>
+            <RoselandOperating />
+            <IncreasedRoselandInt />
+          </div>
         </div>
       </main>
     )
@@ -61,5 +64,6 @@ class YearEndHighlights extends React.Component {
 // <div className='col-md-1'>margin div md-1</div>
 export default YearEndHighlights
 // <div className='col-md-1'>margin div md-1</div>
+// <ResidentPortfolioGrow />
 
 // <img src={graphConstruction} className='construction-image'></img>

@@ -5,7 +5,7 @@ import '../assets/stylesheets/YearEndHighlight.css'
 import { Bar, Doughnut } from 'react-chartjs-2'
 import pattern from 'patternomaly';
 
-class IncreasedRoselandInt extends React.Component {
+class RoselandOperating extends React.Component {
 
   constructor(props) {
     super(props)
@@ -14,18 +14,17 @@ class IncreasedRoselandInt extends React.Component {
   render() {
     return (
         <div className='col-md-3'>
-          <div className="chart-heading">Increased Roseland Ownership Interest</div>
+          <div className="chart-heading">Roseland Operating Units</div>
           <Bar data={{
-              labels: ['2015', '2016', '2017'],
+              labels: ['2017', '2018'],
               datasets: [{
-                data: [44.26, 50.54, 67.29],
+                data: [5826, 7410],
                 backgroundColor: [
-                  pattern.draw('line', '#a7a9ac'),
                   pattern.draw('line', '#afbc4a'),
                   pattern.draw('line', '#008996'),
                 ],
-                borderColor: ['#231f20', '#231f20', '#231f20'],
-                borderWidth: [1, 1, 1],
+                borderColor: ['#231f20', '#231f20'],
+                borderWidth: [1, 1],
               }]
             }}
             options={{
@@ -34,7 +33,7 @@ class IncreasedRoselandInt extends React.Component {
               events: [],
               scales: {
                 yAxes: [{display: false,
-                  ticks: {beginAtZero: true, max: 80}
+                  ticks: {beginAtZero: true, max: 8500}
                 }],
                 xAxes: [{barThickness: 72,
                   categoryPercentage: .74,
@@ -59,7 +58,7 @@ class IncreasedRoselandInt extends React.Component {
                     var meta = chartInstance.controller.getDatasetMeta(i);
                     meta.data.forEach(function(bar, index) {
                       var data = dataset.data[index];
-                      ctx.fillText(`${data}%`, bar._model.x, bar._model.y - 5);
+                      ctx.fillText(`${data.toString().slice(0,1)},${data.toString().slice(1, 4)}`, bar._model.x, bar._model.y - 5);
                     });
                   });
                 }
@@ -75,4 +74,4 @@ class IncreasedRoselandInt extends React.Component {
 
 
 
-export default IncreasedRoselandInt
+export default RoselandOperating

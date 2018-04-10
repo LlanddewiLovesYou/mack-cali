@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import graphConstruction from '../assets/images/graphconstruction.png';
-import '../assets/stylesheets/FeaturedProperty3.css';
+// import '../assets/stylesheets/FeaturedProperty3.css';
 import Carousel from 'nuka-carousel';
 import property3 from '../assets/images/property3.png';
 
@@ -16,7 +16,7 @@ class FeaturedProperty3 extends React.Component {
       <main className='property-component background-3'>
 
         <div className='property3-container'>
-    
+
 
             <div className='property3-copy-container light-copy'>
               <div className='property-title'>SUBURBAN IMPROVEMENTS</div>

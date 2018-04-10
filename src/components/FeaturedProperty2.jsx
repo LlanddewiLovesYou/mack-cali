@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import graphConstruction from '../assets/images/graphconstruction.png';
-import '../assets/stylesheets/FeaturedProperty2.css';
+// import '../assets/stylesheets/FeaturedProperty2.css';
 import Carousel from 'nuka-carousel';
 import property2 from '../assets/images/property2.png';
 
@@ -36,7 +36,6 @@ class FeaturedProperty2 extends React.Component {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.
               </div>
-              <div className='property-number'>3,256units<span className='sq-ft'>Completed</span></div>
             </div>
 
             <div className={bubbleClass} id='orange2'>

@@ -1,8 +1,8 @@
 import React from 'react';
 import graphConstruction from '../assets/images/graphconstruction.png'
 import '../assets/stylesheets/YearEndHighlight.css'
-import {Doughnut} from 'react-chartjs-2'
-import piecelabel from "chart.piecelabel.js"
+import {Chart, Doughnut} from 'react-chartjs-2'
+
 // import Navbar from './Navbar'
 // import OfficeBaseRent from './OfficeBaseRent'
 // import IncreasedRoselandInt from './IncreasedRoselandInt'
@@ -20,8 +20,8 @@ render() {
             backgroundColor: ['#231f20', '#008996', '#afbc4a', '#c7cf8a', '#a7a9ac']
           }],
         }}
+        type="doughnut"
         options={{
-          plugins: [piecelabel],
           cutoutPercentage: 65,
           legend: {display: false},
           responsive: false,

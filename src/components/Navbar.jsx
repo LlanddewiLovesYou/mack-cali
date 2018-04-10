@@ -45,7 +45,7 @@ class Navbar extends React.Component {
             <li><NavLink className='inactive' activeClassName='active' to='/YearEndHighlights'>Year-end Highlights</NavLink></li>
             <li><NavLink className='inactive' activeClassName='active' to='/Stockholders'>Stockholders&#39; letter</NavLink></li>
             <li><NavLink className='inactive' activeClassName='active' to='/FeaturedProperties'>Featured Properties</NavLink></li>
-            <li><NavLink className='inactive' activeClassName='active' to='#' onClick={() => this.downloadToggle()}>Downloads</NavLink></li>
+            <li onClick={() => this.downloadToggle()}>Downloads</li>
           </ul>
         </div>
       </div>
