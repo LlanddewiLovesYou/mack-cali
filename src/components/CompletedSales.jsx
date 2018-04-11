@@ -7,7 +7,7 @@ class CompletedSales extends React.Component {
     super(props)
     this.state = {
       completed: 172,
-      completedCount: 100,
+      completedCount: 130,
       complete: false,
     }
     this.incrementCounts = this.incrementCounts.bind(this)
@@ -57,7 +57,7 @@ class CompletedSales extends React.Component {
 
   render() {
     return (
-      <main className='col-md-4 completed-container'>
+      <main className='col-md-4 box completed-container'>
         <div className='completed-label'>COMPLETED</div>
         <div className='completed-item'>$1,{this.state.completedCount}m</div>
         <div className='completed-label'>Non-Core Asset Sales<br/>2015-2017</div>

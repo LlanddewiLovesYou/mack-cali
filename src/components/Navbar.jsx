@@ -1,6 +1,8 @@
 import React from 'react';
 import '../assets/stylesheets/Navbar.css'
 import Logo from "../assets/images/mack-cali.png"
+import annualReport from "../assets/images/Mack-Cali_Cover.jpg"
+import form10k from "../assets/images/Mack-Cali_10K.jpg"
 import { Link, NavLink, Switch, Route } from 'react-router-dom';
 
 class Navbar extends React.Component {
@@ -62,9 +64,9 @@ class Navbar extends React.Component {
             </a>
           </div>
           <div className='navbar-collapse collapse'>
-            <ul className='nav navbar-nav'>
-              <li><a href='#'>2017 ANNUAL REPORT</a></li>
-              <li><a href='#'>2018 ANNUAL REPORT</a></li>
+            <ul className='download-nav'>
+              <li className='download-flex'><a href='#'><img className='download-img' src={annualReport}/><div>2017 ANNUAL REPORT</div></a></li>
+              <li className='download-flex'><a href='#'><img className='download-img' src={form10k}/><div>Form 10-K</div></a></li>
             </ul>
           </div>
         </div>) : null}

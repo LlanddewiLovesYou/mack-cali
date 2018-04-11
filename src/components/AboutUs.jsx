@@ -13,14 +13,18 @@ class AboutUs extends React.Component {
   render() {
     return (
       <main>
-        
+
         <div className='about'>
           <div className='about-container'>
-            <div className='about-heading'>
-              <div className='pipes' id='left-pipe'>|</div>
-              MACK-CALI CORPORATION
-              <div className='pipes' id='right-pipe'>|</div>
+            <div className='row'>
+              <div className='about-heading col-md-8 col-md-offset-2'>
+                <div className='pipes' id='left-pipe'>|</div>
+                MACK-CALI CORPORATION
+                <div className='pipes' id='right-pipe'>|</div>
+              </div>
             </div>
+            <div className='row'>
+              <div  className='col-md-8 col-md-offset-2'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -36,6 +40,8 @@ class AboutUs extends React.Component {
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
+          </div>
+          </div>
           </div>
         </div>
       </main>

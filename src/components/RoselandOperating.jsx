@@ -13,8 +13,8 @@ class RoselandOperating extends React.Component {
 
   render() {
     return (
-        <div className='col-md-3'>
-          <div className="chart-heading">Roseland Operating Units</div>
+        <div className='col-md-2 col-md-offset-3'>
+          <div className="chart-heading" id='rose-heading'>Roseland Operating Units</div>
           <Bar data={{
               labels: ['2017', '2018'],
               datasets: [{

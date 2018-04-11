@@ -13,7 +13,7 @@ class IncreasedRoselandInt extends React.Component {
 
   render() {
     return (
-        <div className='col-md-3'>
+        <div className='col-md-2'>
           <div className="chart-heading">Increased Roseland Ownership Interest</div>
           <Bar data={{
               labels: ['2015', '2016', '2017'],

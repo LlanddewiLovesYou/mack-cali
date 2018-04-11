@@ -12,7 +12,7 @@ class Dough2016 extends React.Component {
 
 render() {
   return (
-    <div className='col-md-3'>
+    <div className='col-md-4 box'>
       <Doughnut data={{
           labels: ['Waterfront', 'Class A Suburban', 'Suburban', 'Flex', 'Residential'],
           datasets: [{
@@ -21,6 +21,14 @@ render() {
           }],
         }}
         options={{
+          layout: {
+            padding: {
+              top: 0,
+              bottom: 0,
+              left: 10,
+              right: 10,
+            }
+          },
           plugins: [piecelabel],
           cutoutPercentage: 65,
           legend: {display: false},
@@ -38,7 +46,7 @@ render() {
             onComplete: function() {
               const chartInstance = this.chart,
               ctx = chartInstance.ctx;
-              ctx.font = "20px Josefin Sans";
+              ctx.font = "32px Josefin Sans";
               ctx.textAlign = "center";
               ctx.textBaseline = "middle";
               const x = chartInstance.canvas.clientWidth / 2;

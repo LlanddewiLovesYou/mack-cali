@@ -9,9 +9,7 @@ class DoughLegend extends React.Component {
 
   render() {
     return (
-      <main>
-        <div className='col-md-2'></div>
-          <div className='donut-legend col-md-9'>
+          <div className='donut-legend col-md-12'>
 
             <div className='legend-label'>
               <div className='legend-swatch' id='waterfront'></div>
@@ -39,8 +37,6 @@ class DoughLegend extends React.Component {
             </div>
 
           </div>
-        <div className='col-md-1'></div>
-      </main>
     )
   }
 

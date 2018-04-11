@@ -89,6 +89,7 @@ a {
   display: flex;
   justify-content: center;
   margin: 0;
+  height: 245px;
 }
 
 #navbar-mobile-button .navbar-toggle{
@@ -98,4 +99,35 @@ a {
 
 #mack-logo {
   margin-left: 50px
+}
+
+.download-img {
+  width: 150px;
+}
+
+.download-flex a {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.download-flex a:hover {
+  background-color: white;
+}
+
+.download-flex a div {
+
+  padding: 5px
+}
+
+ul {
+
+  list-style: none;
+}
+
+.download-nav {
+  display:flex;
+  flex-direction: row;
 }
