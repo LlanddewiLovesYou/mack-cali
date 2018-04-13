@@ -105,6 +105,10 @@ a {
   width: 150px;
 }
 
+.icon-bar {
+  border-bottom: 1px solid black;
+}
+
 .download-flex a {
   display:flex;
   flex-direction: column;

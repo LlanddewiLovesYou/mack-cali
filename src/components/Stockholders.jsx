@@ -26,7 +26,7 @@ class Stockholders extends React.Component {
 
 
             <div className='row'>
-              <div className='col-md-8 col-md-offset-2'>
+              <div className='col-md-8 col-xs-8 col-xs-offset-2'>
               <p id='first-paragraph'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -71,7 +71,7 @@ class Stockholders extends React.Component {
                 </div>
             </div>
             <div className="row">
-              <div className="col-md-4 col-md-offset-2">
+              <div className="col-md-4 col-xs-4 col-xs-offset-2">
               <div className='signature-container'>
                 <div className='signature' id='sig-1'>
                   <img src={micheal}/>

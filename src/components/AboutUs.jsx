@@ -24,7 +24,7 @@ class AboutUs extends React.Component {
               </div>
             </div>
             <div className='row'>
-              <div  className='col-md-8 col-md-offset-2'>
+              <div className='col-md-8 col-xs-8 col-xs-offset-2'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -34,7 +34,7 @@ class AboutUs extends React.Component {
               pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
               culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <p>
+            <p className="last-p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
