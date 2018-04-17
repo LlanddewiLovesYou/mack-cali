@@ -34,12 +34,15 @@ class FeaturedProperty1 extends React.Component {
             <div className='property-title'>HARBORSIDE</div>
             <div className='property-subtitle'>MACK-CALI'S CORPORATE HEADQUARTERS<br/>JERSEY CITY, NEW JERSEY</div>
             <div className='property-copy'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              Harborside reshapes the way our work days unfold. With landmark
+              destination offices, collaborative lounges, boutique shopping,
+              world-class dining and an ever-changing social landscape, it brings
+              endless possibilities to every moment, and all against a backdrop
+              of New York City views. Spanning 4.3 million square feet of office
+              and retail space, and with another 1.1 million square feet planned,
+              Harborside and its six state-of-the-art class A buildings underscore
+              the distinctive character of the Jersey City Waterfront— an unrivaled
+              destination.
             </div>
 
           </div>

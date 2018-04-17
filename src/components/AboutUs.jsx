@@ -26,19 +26,23 @@ class AboutUs extends React.Component {
             <div className='row'>
               <div className='col-md-8 col-xs-8 col-xs-offset-2'>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              Mack-Cali Realty Corporation is an owner, manager and developer of
+              premier office and multifamily properties in select waterfront and
+              ransit-oriented markets throughout the Northeast. Mack-Cali is
+              headquartered in Jersey City, New Jersey, and is the visionary
+              behind the city&#39;s flourishing waterfront, where the company is
+              leading development, improvement and place-making initiatives for
+              Harborside, a master-planned destination comprised of class A
+              offices, luxury apartments, diverse retail and restaurants, and
+              public space.
             </p>
             <p className="last-p">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              A fully-integrated and self-managed company, Mack-Cali has provided
+              world-class management, leasing, and development services throughout
+              New Jersey and the surrounding region for two decades. By regularly
+              investing in its properties and innovative lifestyle amenity packages,
+              Mack-Cali creates environments that empower tenants and residents to
+              reimagine the way they work and live
             </p>
           </div>
           </div>

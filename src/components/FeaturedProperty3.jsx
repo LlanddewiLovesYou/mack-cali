@@ -21,12 +21,21 @@ class FeaturedProperty3 extends React.Component {
             <div className='property3-copy-container light-copy'>
               <div className='property-title'>SUBURBAN IMPROVEMENTS</div>
               <div className='property-copy'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+                <p>
+                  Two years ago, we made a commitment to significantly upgrade
+                  several of our core office properties—ones that we consider
+                  prime opportunities in transit-oriented markets. We upgraded
+                  every touchpoint of the tenant experience—from what they see
+                  when they first walk into the building ’ s lobby, to where
+                  and what they eat for lunch, and how they work out in the
+                  afternoon.
+                </p>
+                <p>
+                  This capital improvement initiative involved a comprehensive
+                  renovation of building exteriors, installation of state-of-the-art
+                  amenities, and modernization of common areas in properties
+                  throughout Metropark, Short Hills, Red Bank, and Parsippany.
+                </p>
               </div>
             </div>
 

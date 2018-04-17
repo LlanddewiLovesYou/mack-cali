@@ -1,0 +1,158 @@
+<div className="navbar ian-nav">
+  <div className="navbar-header">
+    <button
+      type="button"
+      className="navbar-toggle"
+      data-toggle="collapse"
+      data-target="#myNavbar"
+    >
+      <span className="sr-only">Toggle Navigation</span>
+      <span className="icon-bar" />
+      <span className="icon-bar" />
+      <span className="icon-bar" />
+    </button>
+  </div>
+  <div className="navbar-collapse collapse" id="myNavbar">
+    <ul className="nav navbar-nav">
+      <li>1</li>
+      <li>2</li>
+    </ul>
+  </div>
+</div>
+<div id="test" className="navbar-header">
+  <button
+    type="button"
+    className="navbar-toggle"
+    data-toggle="collapse"
+    data-target="#collapse-menu"
+  >
+    <span className="sr-only">Toggle Navigation</span>
+    <span className="icon-bar" />
+    <span className="icon-bar" />
+    <span className="icon-bar" />
+  </button>
+</div>
+<div id="collapse-menu" className="navbar-collapse collapse">
+  <ul id="navbar-links" className="nav navbar-nav">
+    <li>
+    <div to="/" id="annual-link">
+      2017 ANNUAL REPORT
+    </div>
+    </li>
+    <li>
+      <Link to="/">Home</Link>
+    </li>
+    <li>
+      <NavLink
+        className="inactive"
+        activeClassName="active"
+        to="/AboutUs"
+      >
+        About Us
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        className="inactive"
+        activeClassName="active"
+        to="/YearEndHighlights"
+      >
+        Year-end Highlights
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        className="inactive"
+        activeClassName="active"
+        to="/Stockholders"
+      >
+        Stockholders&#39; letter
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        className="inactive"
+        activeClassName="active"
+        to="/FeaturedProperties"
+      >
+        Featured Properties
+      </NavLink>
+    </li>
+    <li onClick={() => this.downloadToggle()}>Downloads</li>
+  </ul>
+</div>
+</div>
+{this.state.downloadsOpen ? (
+<ul className="download-nav">
+  <li className="download-flex">
+    <a href="#">
+      <img className="download-img" src={annualReport} />
+      <div>2017 ANNUAL REPORT</div>
+    </a>
+  </li>
+  <li className="download-flex">
+    <a href="#">
+      <img className="download-img" src={form10k} />
+      <div>Form 10-K</div>
+    </a>
+  </li>
+</ul>
+) : null}
+
+<Navbar.Header>
+  <Navbar.Toggle />
+</Navbar.Header>
+
+<Navbar.Collapse>
+  <Nav>
+    <NavItem eventKey={1}>
+
+        2017 ANNUAL REPORT
+
+    </NavItem>
+    <NavItem>
+      <Link to="/">Home</Link>
+    </NavItem>
+    <NavItem>
+      <NavLink
+        className="inactive"
+        activeClassName="active"
+        to="/AboutUs"
+      >
+        About Us
+      </NavLink>
+    </NavItem>
+    <NavItem>
+      <NavLink
+        className="inactive"
+        activeClassName="active"
+        to="/YearEndHighlights"
+      >
+        Year-end Highlights
+        </NavLink>
+    </NavItem>
+    <NavItem>
+      <NavLink
+        className="inactive"
+        activeClassName="active"
+        to="/Stockholders"
+      >
+        Stockholders&#39; letter
+            </NavLink>
+    </NavItem>
+    <NavItem>
+      <NavLink
+        className="inactive"
+        activeClassName="active"
+        to="/FeaturedProperties"
+      >
+        Featured Properties
+      </NavLink>
+    </NavItem>
+    <NavItem>
+      <li onClick={() => this.downloadToggle()}>Downloads</li>
+    </NavItem>
+  </Nav>
+</Navbar.Collapse>
+</div>
+</Navbar>
