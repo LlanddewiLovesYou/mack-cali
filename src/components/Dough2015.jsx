@@ -2,6 +2,7 @@ import React from 'react';
 import graphConstruction from '../assets/images/graphconstruction.png'
 import '../assets/stylesheets/YearEndHighlight.css'
 import {Chart, Doughnut} from 'react-chartjs-2'
+import VisibilitySensor from 'react-visibility-sensor';
 
 // import Navbar from './Navbar'
 // import OfficeBaseRent from './OfficeBaseRent'
@@ -10,9 +11,18 @@ import {Chart, Doughnut} from 'react-chartjs-2'
 
 class Dough2015 extends React.Component {
 
+constructor(props){
+  super(props)
+  this.state = {
+    isVisible: false
+  }
+}
+
 render() {
+
   return (
     <div className='col-md-4 box'>
+    {  this.state.isVisible ?
       <Doughnut data={{
           labels: ['Waterfront', 'Class A Suburban', 'Suburban', 'Flex', 'Residential'],
           datasets: [{
@@ -63,7 +73,8 @@ render() {
         height={300}
 
         >
-      </Doughnut>
+      </Doughnut> : <div className='placeholder'></div>}
+      <VisibilitySensor onChange={(isVisible) => this.setState({isVisible})}/>
     </div>
     )
   }

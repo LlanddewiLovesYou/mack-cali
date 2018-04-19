@@ -4,16 +4,22 @@ import graphConstruction from '../assets/images/graphconstruction.png'
 import '../assets/stylesheets/YearEndHighlight.css'
 import { Bar, Doughnut } from 'react-chartjs-2'
 import pattern from 'patternomaly';
+import VisibilitySensor from 'react-visibility-sensor';
 
 class ResidentPortfolioGrow extends React.Component {
 
   constructor(props) {
     super(props)
+    this.state = {
+      isVisible: false
+    }
   }
 
   render() {
+    debugger
     return (
         <div className='col-md-5 col-md-offset-2'>
+          {  this.state.isVisible ?
           <div className="chart-heading">Residential Portfolio Growing FFO Contribution</div>
           <Bar data={{
               labels: ['2017', '2018', '2019', '2020'],
@@ -68,7 +74,8 @@ class ResidentPortfolioGrow extends React.Component {
             }}
             height={260}
             width={385}>
-          </Bar>
+          </Bar> : <div className='placeholder'></div>}
+          <VisibilitySensor onChange={(isVisible) => this.setState({isVisible})}/>
         </div>
     )
   }

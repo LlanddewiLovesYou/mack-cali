@@ -1,4 +1,5 @@
 import React from 'react';
+import VisibilitySensor from "react-visibility-sensor";
 
 
 class GAAPRoll extends React.Component {
@@ -11,12 +12,22 @@ class GAAPRoll extends React.Component {
       gaapCount: 15.6,
       cashCount: 7.5,
       complete: false,
+      isVisible: false
     }
     this.incrementCounts = this.incrementCounts.bind(this)
+    this.handleVisibiltyChange = this.handleVisibiltyChange.bind(this)
   }
 
-  componentDidMount() {
-    this.incrementCounts()
+  componentDidUpdate() {
+    if (this.state.isVisible && this.state.gaapCount < 15.7) {
+      this.incrementCounts();
+    }
+  }
+
+  handleVisibiltyChange(isVisible) {
+    if (isVisible !== this.state.isVisible) {
+      this.setState({isVisible})
+    }
   }
 
   incrementCounts(){
@@ -38,37 +49,36 @@ class GAAPRoll extends React.Component {
       setTimeout(this.incrementCounts, 50)
     }
 
-    //
-    // while (this.state.complete === false) {
-    //   this.setState({complete: true})
-    //   if (this.state.gaapCount !== this.state.gaap){
-    //     setInterval(this.setState({gaapCount: this.state.gaapCount + 0.1}), 250)
-    //     this.setState({complete:false})
-    //   }
-    //   if (this.state.cashCount !== this.state.cash) {
-    //     setInterval(this.setState({cashCount: this.state.cashCount + 0.1}), 250)
-    //     this.setState({complete:false})
-    //   }
-    // }
-    // if (this.state.complete === false) {
-    //   this.incrementCounts()
-    //
-    // }
-
   }
 
   render() {
-    return (
-      <main className='col-md-4 box'>
-        <div className='gaap-container'>
-          <div className='gaap-label'>GAAP Rental Rate Rollup<br/>(Excluding Non-Core)</div>
-          <div className='gaap-item' id='gaap'>{Math.round( this.state.gaapCount * 10 ) / 10}%</div>
-          <hr className='hr'/>
-          <div className='gaap-label'>Cash Rental Rate Rollup<br/>(Excluding Non-Core)</div>
-          <div className='gaap-item' id='cash'>{Math.round( this.state.cashCount * 10 ) / 10}%</div>
-        </div>
+
+    if (this.state.isVisible) {
+      return (
+        <main className='col-md-4 box'>
+          <div className='gaap-container'>
+            <div className='gaap-label'>GAAP Rental Rate Rollup<br/>(Excluding Non-Core)</div>
+            <div className='gaap-item' id='gaap'>{Math.round( this.state.gaapCount * 10 ) / 10}%</div>
+            <hr className='hr'/>
+            <div className='gaap-label'>Cash Rental Rate Rollup<br/>(Excluding Non-Core)</div>
+            <div className='gaap-item' id='cash'>{Math.round( this.state.cashCount * 10 ) / 10}%</div>
+          </div>
+          <VisibilitySensor
+            onChange={this.handleVisibiltyChange}
+          />
+        </main>
+      )
+    } else {
+      return (
+
+      <main>
+        <div className="placeholder" />
+        <VisibilitySensor
+          onChange={this.handleVisibiltyChange}
+        />
       </main>
     )
+    }
   }
 
 }

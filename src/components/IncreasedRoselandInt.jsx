@@ -4,17 +4,22 @@ import graphConstruction from '../assets/images/graphconstruction.png'
 import '../assets/stylesheets/YearEndHighlight.css'
 import { Bar, Doughnut } from 'react-chartjs-2'
 import pattern from 'patternomaly';
+import VisibilitySensor from 'react-visibility-sensor';
 
 class IncreasedRoselandInt extends React.Component {
 
   constructor(props) {
     super(props)
+    this.state = {
+      isVisible: false
+    }
   }
 
   render() {
     return (
         <div className='col-md-2'>
           <div className="chart-heading">Increased Roseland Ownership Interest</div>
+          {  this.state.isVisible ?
           <Bar data={{
               labels: ['2015', '2016', '2017'],
               datasets: [{
@@ -66,7 +71,8 @@ class IncreasedRoselandInt extends React.Component {
               }
             }}
             height={260}>
-          </Bar>
+          </Bar> : <div className='placeholder'></div>}
+          <VisibilitySensor onChange={(isVisible) => this.setState({isVisible})}/>
         </div>
     )
   }

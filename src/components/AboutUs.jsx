@@ -28,7 +28,7 @@ class AboutUs extends React.Component {
             <p>
               Mack-Cali Realty Corporation is an owner, manager and developer of
               premier office and multifamily properties in select waterfront and
-              ransit-oriented markets throughout the Northeast. Mack-Cali is
+              transit-oriented markets throughout the Northeast. Mack-Cali is
               headquartered in Jersey City, New Jersey, and is the visionary
               behind the city&#39;s flourishing waterfront, where the company is
               leading development, improvement and place-making initiatives for
@@ -42,7 +42,7 @@ class AboutUs extends React.Component {
               New Jersey and the surrounding region for two decades. By regularly
               investing in its properties and innovative lifestyle amenity packages,
               Mack-Cali creates environments that empower tenants and residents to
-              reimagine the way they work and live
+              reimagine the way they work and live.
             </p>
           </div>
           </div>

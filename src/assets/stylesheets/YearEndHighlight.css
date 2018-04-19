@@ -38,6 +38,7 @@
   color: #008996;
   margin-top: 85px;
   margin-bottom: 75px;
+  font-weight:lighter;
 }
 
 .chart-heading {
@@ -171,4 +172,8 @@ canvas {
 #footnote {
   text-align: center;
   margin: 0 auto;
+}
+
+.placeholder {
+  height: 300px
 }

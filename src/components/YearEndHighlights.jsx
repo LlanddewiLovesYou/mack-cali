@@ -14,6 +14,8 @@ import GAAPRoll from "./GAAPRoll";
 import CompletedSales from "./CompletedSales";
 import "chart.piecelabel.js/build/Chart.PieceLabel.min.js";
 
+
+
 class YearEndHighlights extends React.Component {
   constructor(props) {
     super(props);
@@ -24,7 +26,7 @@ class YearEndHighlights extends React.Component {
       <main className="yearend-graphs-container">
         <div className="row">
           <div className="col-xs-10 col-xs-offset-1 yearend-title">
-            Year End Highlights
+            Year-end Highlights
           </div>
         </div>
         <div className="row">
