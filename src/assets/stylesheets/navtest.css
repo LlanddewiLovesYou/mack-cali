@@ -1,0 +1,88 @@
+.navlink-container {
+  background-color: #d6edee;
+  margin-bottom: none;
+  height: 35px;
+  position: relative;
+  /* display: flex; */
+}
+
+#annual-report-2017 {
+  position:absolute;
+  top: 10px;
+  left: 73px;
+  color: #39a3ad;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: none;
+  height: 35px;
+}
+
+.navlink-item {
+  /* padding: 0px 60px; */
+  /* min-width: 245px */
+  padding: 10px 15px;
+  color:black;
+}
+.navlink-item:hover {
+  text-decoration: none;
+  color:white;
+}
+
+.navlinks li .inactive:hover, .navlinks li .active:hover  {
+  text-decoration: none;
+  color: white;
+
+}
+
+.active {
+  color: white;
+  background-color: #008996
+}
+
+.inactive {
+  padding: 10px 60px;
+  color: black;
+  background-color: #d6edee
+}
+
+
+.download-img {
+  width: 150px;
+}
+
+.icon-bar {
+  border-bottom: 1px solid black;
+}
+
+.download-flex a {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.download-flex a:hover {
+  background-color: white;
+}
+
+.download-flex a div {
+
+  padding: 5px
+}
+
+ul {
+  list-style: none;
+}
+
+.download-nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #b8dfe0;
+}

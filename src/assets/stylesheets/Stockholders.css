@@ -18,25 +18,32 @@ summary {
 }
 
 #first-paragraph, #stockholder-greeting {
-  margin-top: 85px;
+
   color: #008996
 }
 
 #first-paragraph {
   margin-bottom: 20px;
   font-size: 20px;
+  margin-top: 10px;
+  font-weight: normal;
 }
 
 #stockholder-greeting {
   font-size: 36px;
   font-weight: lighter;
-  margin-left: 17%
+  margin-left: 23.5%;
+  margin-top: 85px;
 }
 
 .stockholder-container p {
   /* margin: 10px 265px; */
   /* margin-left: 20px; */
+  font-weight: lighter;
   font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .signature-container {

@@ -84,16 +84,16 @@ canvas {
 }
 
 .legend-swatch {
-  height: 10px;
-  width: 10px;
+  height: 12px;
+  width: 12px;
   margin-right: 10px;
-  align-items: baseline;
 }
 
 .legend-label {
   display: flex;
   flex-direction: row;
   padding: 20px 30px;
+  align-items: baseline;
   /* padding-bottom: 15px */
   /* margin: 0 30px */
   /* text-align: textBaseline; */
@@ -118,7 +118,7 @@ canvas {
 
 .completed-container {
   /* width:420px; */
-  height: 280px;
+  height: 320px;
   background-color: #f4f6e4;
   color: #008996;
   display:flex;
@@ -154,6 +154,7 @@ canvas {
 .gaap-label {
   font-size: 18px;
   font-weight: lighter;
+  color: black;
 }
 
 .gaap-item {
@@ -162,7 +163,8 @@ canvas {
 }
 
 .hr {
-  border-top: 1px solid black
+  border-top: 1px solid black;
+  margin-top: none;
 }
 
 .donut {

@@ -26,7 +26,7 @@ class MyNavbar extends React.Component {
     return (
       <main>
         <img src={Logo} id="mack-logo" />
-        <div className="navbar ian-nav">
+        <div className="navbar navbar-default ian-nav">
           <div id="test" className="navbar-header">
             <button
               type="button"
