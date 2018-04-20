@@ -1,12 +1,10 @@
-
 .splash-image-container {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .splash-image {

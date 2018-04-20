@@ -12,8 +12,10 @@ class OfficeBaseRent extends React.Component {
 
   render() {
     return (
-      <div className="col-sm-4">
-        <div className="chart-heading">Average Office Base Rent Per Sq. Ft.</div>
+      <div className="col-xs-3">
+        <div className="chart-heading">
+          Average Office Base Rent Per Sq. Ft.
+        </div>
         <Bar
           data={{
             labels: ["2015", "2016", "2017"],
@@ -41,10 +43,8 @@ class OfficeBaseRent extends React.Component {
                   ticks: { beginAtZero: true },
                   gridLines: {
                     zeroLinewidth: 2,
-                    zeroLineColor: 'rgba(0,0,0,1)'
-
+                    zeroLineColor: "rgba(0,0,0,1)"
                   }
-
                 }
               ],
               xAxes: [
@@ -54,7 +54,7 @@ class OfficeBaseRent extends React.Component {
                   ticks: { fontColor: "#008996", fontFamily: "Josefin Sans" },
                   gridLines: {
                     display: false,
-                    color: 'rgba(0, 0, 0, 1)'
+                    color: "rgba(0, 0, 0, 1)"
                   }
                 }
               ]

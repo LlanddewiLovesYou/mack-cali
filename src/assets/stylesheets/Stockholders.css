@@ -1,5 +1,5 @@
 .construction-container {
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
   font-size: 100px;
   margin: 0 auto;
   color: black;
@@ -10,16 +10,12 @@
   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
   /* margin: 0 200px; */
   margin-top: 85px;
-  position:relative;
+  position: relative;
 }
 
-summary {
-  /* display: grid; */
-}
-
-#first-paragraph, #stockholder-greeting {
-
-  color: #008996
+#first-paragraph,
+#stockholder-greeting {
+  color: #008996;
 }
 
 #first-paragraph {
@@ -32,18 +28,15 @@ summary {
 #stockholder-greeting {
   font-size: 36px;
   font-weight: lighter;
-  margin-left: 23.5%;
   margin-top: 85px;
 }
 
 .stockholder-container p {
-  /* margin: 10px 265px; */
-  /* margin-left: 20px; */
   font-weight: lighter;
   font-size: 18px;
-  margin-bottom: 20px;
   max-width: 1000px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .signature-container {
@@ -58,6 +51,8 @@ summary {
   margin-left: none;
   margin-bottom: 30px;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
   /* font-weight: lighter; */
 }
 
@@ -67,22 +62,19 @@ summary {
 
 .signature div {
   display: inline-block;
-  color:#008996;
+  color: #008996;
 }
 
 .sig-date {
   /* margin: 10px 265px;
   margin-bottom: 70px; */
-
 }
 
 .stockholder-stats-container {
   width: 175px;
-
 }
 
 .stackholder-stats {
-
 }
 
 .dollar {
@@ -101,7 +93,7 @@ summary {
 
 .stat-number img {
   height: 60px;
-  display:inline
+  display: inline;
 }
 
 #by-2018 {
@@ -113,31 +105,28 @@ summary {
   font-size: 16px;
   color: #aab73d;
   margin-top: 25px;
-  margin-bottom: 15px
+  margin-bottom: 15px;
 }
 
 .stats-copy {
   font-size: 14px;
-
 }
 
 .stockholder-stats-container hr {
   margin-top: 10px;
   border-top: 1px solid black;
-  width: 175px
+  width: 175px;
 }
 
 #seventeen {
-  position:absolute;
+  position: absolute;
   top: 175px;
   left: 0;
   /* padding-right: 300px */
-
 }
 
 #fiftyeight {
   position: absolute;
   top: 85px;
   left: 0px;
-
 }

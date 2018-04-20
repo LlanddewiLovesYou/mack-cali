@@ -1,147 +1,81 @@
+a {
+  color: black;
+  font-weight: normal;
+}
+
+a:not([href]):not([tabindex]):hover {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
 .navbar {
-  min-height: 35px;
-  border-radius: none;
-  color: black;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-
-.navbar-nav {
-  float: none;
-  display: flex;
-  /* justify-content: space-around; */
-  align-items: center;
-  max-height: 35px;
-  color: black;
-}
-
-.nav > li > a {
-    position: relative;
-    display: block;
-    padding: 8px;
-    border-bottom-color: none;
-}
-
-#navbar-links {
-  color: black;
-}
-
-#downloads {
+.nav-pills,
+.nav-link {
+  border-radius: 0;
   cursor: pointer;
 }
-.active {
-  padding: none;
-  color: white;
-  background-color: #008996
-}
 
-.active .ian-nav .navbar-nav > li > a {
+.nav-pills a:hover {
   color: white;
 }
 
-
-a {
-  color:#231f20;
+.nav-link:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #008e98;
+  border-radius: 0;
 }
 
-.navbar-nav li {
-  width: 185px;
-  text-align: center;
-}
-
-.navbar-nav li:active {
-  color:white;
-}
-
-.navbar-toggle {
-  margin-top: 2px;
-  margin-right: 20px;
-  height: 30px;
-  background-color: white
+.nav-pills .nav-link.active {
+  background-color: #008e98;
+  color: white;
 }
 
 #annual-link {
   color: #39a3ad;
-  position: absolute;
+  font-size: 16px;
 }
 
-#main-nav-component {
-  position: relative;
+#menu-icon:focus {
+  outline: none;
 }
 
-#downloads-div {
+.downloads {
   background-color: #b8dfe0;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  height: 245px;
+  width: 100%;
 }
 
-#navbar-mobile-button .navbar-toggle{
-  border: none;
-  background-color: none;
-}
-
-#mack-logo {
-  margin-left: 50px;
-  height:110px;
+.download-nav {
+  list-style: none;
+  padding-top: 20px;
 }
 
 .download-img {
   width: 150px;
 }
 
-.icon-bar {
-  border-bottom: 1px solid black;
-}
-
-.download-flex a {
-  display:flex;
+.download-flex {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 15px;
+  text-align: center;
+  min-width: 30%;
 }
 
-.download-flex a:hover {
-  background-color: white;
+#mack-logo {
+  margin-left: 50px;
+  height: 110px;
 }
 
-.download-flex a div {
-
-  padding: 5px
-}
-
-ul {
-
-  list-style: none;
-}
-
-.download-nav {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #b8dfe0;
-}
-
-.ian-nav {
-  background-image: none;
+.custom-nav {
   background-color: #d6edee;
-  border: none;
   color: black;
-  margin: 0;
-  width: 100%;
-  box-shadow: none;
-  height: 35px;
-  border-radius: none;
-  display: flex;
-  justify-content: center;
-}
-
-.ian-nav .navbar-nav > li > a:hover, .ian-nav .navbar-nav > li > a:focus {
-  color: white;
-  background-color: #008996;
-}
-.ian-nav .navbar-nav > li > a:hover, .ian-nav .navbar-nav > li > a:active {
-  color: white;
-  background-color: #008996;
 }

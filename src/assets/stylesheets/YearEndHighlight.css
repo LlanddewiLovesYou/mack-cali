@@ -5,7 +5,7 @@
   justify-content: center;
   flex-direction: column;
   margin-top: 20px;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
   font-size: 100px;
 }
 
@@ -15,7 +15,7 @@
 
 .empty {
   border: 1px solid black;
-  height: 260px
+  height: 260px;
 }
 
 .row {
@@ -26,7 +26,6 @@
 #first-row {
   border-bottom: 1px solid black;
   margin-top: 30px;
-
 }
 
 .yearend-graphs-container {
@@ -38,7 +37,7 @@
   color: #008996;
   margin-top: 85px;
   margin-bottom: 75px;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
 .chart-heading {
@@ -52,7 +51,6 @@
 }
 
 #rose-heading {
-
 }
 
 .donut-head-flex {
@@ -60,18 +58,17 @@
 }
 
 .donut-heading {
- text-align: center;
- font-size: 16px;
-
+  text-align: center;
+  font-size: 16px;
 }
 
 canvas {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 .donut-legend {
   display: flex;
@@ -97,7 +94,6 @@ canvas {
   /* padding-bottom: 15px */
   /* margin: 0 30px */
   /* text-align: textBaseline; */
-
 }
 
 #waterfront {
@@ -121,10 +117,9 @@ canvas {
   height: 320px;
   background-color: #f4f6e4;
   color: #008996;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .completed-label {
@@ -143,8 +138,6 @@ canvas {
 .gaap-container {
   /* height: 330px;
   width: 300px; */
-  padding-left: 10%;
-  padding-right: 20%;
   margin: 0 auto;
   color: #008996;
   text-align: center;
@@ -177,5 +170,11 @@ canvas {
 }
 
 .placeholder {
-  height: 300px
+  height: 300px;
+}
+
+.bottom-row-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }

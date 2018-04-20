@@ -23,14 +23,16 @@ class YearEndHighlights extends React.Component {
     return (
       <main className="yearend-graphs-container">
         <div className="row">
-          <div className="col-10 offset-md-1 yearend-title">
+          <div className="col-6 offset-1 yearend-title">
             Year-end Highlights
           </div>
         </div>
-        <div className="row">
+        <div className="row justify-content-around">
+          <div className="col-xs-1" />
           <OfficeBaseRent />
           <GAAPRoll />
           <CompletedSales />
+          <div className="col-xs-1" />
         </div>
         <div className="row">
           <hr className="col-md-10 offset-md-1 hr" />
@@ -40,25 +42,26 @@ class YearEndHighlights extends React.Component {
             Increased Portfolio Composition<sup>1</sup>
           </div>
         </div>
-        <div className="row">
+        <div className="row justify-content-center">
           <Dough2015 />
           <Dough2016 />
           <Dough2017 />
         </div>
         <div className="row">
           <DoughLegend />
-          <div classname="col-md-8" id="footnote">
+          <div className="col-md-8" id="footnote">
             <sup>1</sup>Based on the pro rata proportions of Property Net
             Operating Income contribution across portfolio.
           </div>
         </div>
 
         <div className="row">
-          <hr className="col-md-10 col-md-offset-1 hr" />
+          <hr className="col-md-10 offset-md-1 hr" />
         </div>
-        <div className="row">
+
+        <div className="row justify-content-center">
           <RoselandOperating />
-          <div className="col-md-2" />
+          <div className="col-2" />
           <IncreasedRoselandInt />
         </div>
       </main>
