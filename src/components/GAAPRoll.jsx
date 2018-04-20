@@ -17,8 +17,7 @@ class GAAPRoll extends React.Component {
   }
 
   handleVisibiltyChange(isVisible) {
-    debugger;
-    if (isVisible !== this.state.isVisible) {
+    if (!this.state.isVisible) {
       this.setState({ isVisible });
     }
   }
@@ -45,12 +44,11 @@ class GAAPRoll extends React.Component {
 
   render() {
     if (this.state.isVisible && this.state.gaapCount < 15.7) {
-      debugger;
       this.incrementCounts();
     }
-    if (this.state.isVisible) {
-      return (
-        <main className="col-xs-3">
+    return (
+      <main className="col-xs-3">
+        {this.state.isVisible ? (
           <div className="gaap-container">
             <div className="gaap-label">
               GAAP Rental Rate Rollup<br />(Excluding Non-Core)
@@ -66,17 +64,12 @@ class GAAPRoll extends React.Component {
               {Math.round(this.state.cashCount * 10) / 10}%
             </div>
           </div>
-          <VisibilitySensor onChange={this.handleVisibiltyChange} />
-        </main>
-      );
-    } else {
-      return (
-        <main>
+        ) : (
           <div className="col-xs-3 placeholder" />
-          <VisibilitySensor onChange={this.handleVisibiltyChange} />
-        </main>
-      );
-    }
+        )}
+        <VisibilitySensor onChange={this.handleVisibiltyChange} />
+      </main>
+    );
   }
 }
 

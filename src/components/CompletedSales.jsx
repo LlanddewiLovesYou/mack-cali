@@ -21,7 +21,7 @@ class CompletedSales extends React.Component {
   }
 
   handleVisibiltyChange(isVisible) {
-    if (isVisible !== this.state.isVisible) {
+    if (!this.state.isVisible) {
       this.setState({ isVisible });
     }
   }
@@ -47,25 +47,24 @@ class CompletedSales extends React.Component {
   }
 
   render() {
-    if (this.state.isVisible) {
-      return (
-        <main className="col-xs-3 completed-container">
-          <div className="completed-label">COMPLETED</div>
-          <div className="completed-item">$1,{this.state.completedCount}m</div>
-          <div className="completed-label">
-            Non-Core Asset Sales<br />2015-2017
+    return (
+      <main className="col-xs-3 completed-container">
+        {this.state.isVisible ? (
+          <div>
+            <div className="completed-label">COMPLETED</div>
+            <div className="completed-item">
+              $1,{this.state.completedCount}m
+            </div>
+            <div className="completed-label">
+              Non-Core Asset Sales<br />2015-2017
+            </div>
           </div>
-          <VisibilitySensor onChange={this.handleVisibiltyChange} />
-        </main>
-      );
-    } else {
-      return (
-        <main>
+        ) : (
           <div className="placeholder" />
-          <VisibilitySensor onChange={this.handleVisibiltyChange} />
-        </main>
-      );
-    }
+        )}
+        <VisibilitySensor onChange={this.handleVisibiltyChange} />
+      </main>
+    );
   }
 }
 

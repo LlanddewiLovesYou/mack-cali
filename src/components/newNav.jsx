@@ -46,12 +46,7 @@ class MyNavbar extends React.Component {
             <img src={MenuIcon} />
           </NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav
-              fill="true"
-              pills="true"
-              style={{ width: "100%" }}
-              className="flex-column flex-md-row"
-            >
+            <Nav style={{ width: "100%" }} className="flex-column flex-md-row">
               <NavItem className="flex-md-fill text-md-center">
                 <NavLink className="nav-link" to="/home">
                   Home
