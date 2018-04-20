@@ -12,7 +12,7 @@ class OfficeBaseRent extends React.Component {
 
   render() {
     return (
-      <div className="col-md-4 box">
+      <div className="col-sm-4">
         <div className="chart-heading">Average Office Base Rent Per Sq. Ft.</div>
         <Bar
           data={{
