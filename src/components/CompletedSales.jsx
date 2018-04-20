@@ -52,7 +52,7 @@ class CompletedSales extends React.Component {
     if (this.state.isVisible) {
       return (
 
-      <main className="col-md-4 box completed-container">
+      <main className="col-sm-4 completed-container">
         <div className="completed-label">COMPLETED</div>
         <div className="completed-item">$1,{this.state.completedCount}m</div>
         <div className="completed-label">

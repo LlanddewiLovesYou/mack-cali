@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Route, Redirect, Switch, Link, HashRouter } from 'react-router-dom';
-import Navbar from "./components/NavTest.jsx";
+import Navbar from "./components/Navbar.jsx";
 import SplashPage from './components/SplashPage.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import Stockholders from './components/Stockholders.jsx';

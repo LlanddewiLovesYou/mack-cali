@@ -27,7 +27,7 @@ class NavBar extends React.Component {
       <main>
         <img src={Logo} id="mack-logo" />
         <div className='navlink-container'>
-          <div id='annual-report-2017' className='visible-xl'>2017 ANNUAL REPORT</div>
+          <div id='annual-report-2017' className='navbar-brand'>2017 ANNUAL REPORT</div>
           <ul className='navlinks'>
             <li>
               <NavLink
