@@ -88,7 +88,7 @@ class MyNavbar extends React.Component {
                   Featured Properties
                 </NavLink>
               </NavItem>
-              <NavItem className="flex-sm-fill text-sm-center">
+              <NavItem className="flex-sm-fill text-md-center">
                 <NavLink
                   className={`${this.state.downloads ? "active" : ""} nav-link`}
                   activeClassName="active"

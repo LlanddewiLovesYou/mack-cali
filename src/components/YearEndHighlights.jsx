@@ -27,7 +27,7 @@ class YearEndHighlights extends React.Component {
             Year-end Highlights
           </div>
         </div>
-        <div className="row justify-content-around">
+        <div className="row flex-column flex-md-row justify-content-around">
           <div className="col-xs-1" />
           <OfficeBaseRent />
           <GAAPRoll />
