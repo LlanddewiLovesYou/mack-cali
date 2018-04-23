@@ -48,7 +48,7 @@ class CompletedSales extends React.Component {
 
   render() {
     return (
-      <main className="col-xs-3 completed-container">
+      <main className="col-md-4 completed-container">
         {this.state.isVisible ? (
           <div>
             <div className="completed-label">COMPLETED</div>
