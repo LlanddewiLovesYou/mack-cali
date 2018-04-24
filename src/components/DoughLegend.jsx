@@ -9,7 +9,7 @@ class DoughLegend extends React.Component {
 
   render() {
     return (
-          <div className='donut-legend col-xs-12'>
+          <div className='donut-legend col-12'>
 
             <div className='legend-label'>
               <div className='legend-swatch' id='waterfront'></div>

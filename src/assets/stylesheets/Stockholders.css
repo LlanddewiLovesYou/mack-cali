@@ -26,6 +26,8 @@
 }
 
 #stockholder-greeting {
+  max-width: 1000px;
+  padding: 0;
   font-size: 36px;
   font-weight: lighter;
   margin-top: 85px;
@@ -43,7 +45,14 @@
   /* margin: 0 265px; */
   display: flex;
   flex-direction: row;
+
   /* font-size: 20px; */
+}
+
+.center-container {
+  max-width: 1000px;
+  padding: 0;
+
 }
 
 .signature {

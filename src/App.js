@@ -7,6 +7,7 @@ import AboutUs from "./components/AboutUs.jsx";
 import Stockholders from "./components/Stockholders.jsx";
 import YearEndHighlights from "./components/YearEndHighlights.jsx";
 import FeaturedProperties from "./components/FeaturedProperties.jsx";
+import Footer from "./components/Footer.jsx";
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
               component={FeaturedProperties}
             />
           </Switch>
+          <Footer />
         </div>
       </HashRouter>
     );

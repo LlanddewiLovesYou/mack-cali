@@ -16,8 +16,11 @@ class Stockholders extends React.Component {
     return (
       <main>
         <summary className="stockholder-container">
-          <div className="row justify-content-center" id="stockholder-greeting">
+          <div className="row justify-content-center">
+
+          <div className="col-8" id="stockholder-greeting">
             To Our Stockholders:
+          </div>
           </div>
 
           <div className="row justify-content-center">
@@ -156,7 +159,7 @@ class Stockholders extends React.Component {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-8">
+            <div className="col-8 center-container">
               <div className="signature-container">
                 <div className="signature" id="sig-1">
                   <img src={micheal} />

@@ -16,7 +16,7 @@ class RoselandOperating extends React.Component {
 
   render() {
     return (
-      <div className="col-md-2">
+      <div className="col-md-3">
         <div className="chart-heading" id="rose-heading">
           Roseland Operating Units
         </div>

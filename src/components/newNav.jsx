@@ -107,14 +107,13 @@ class MyNavbar extends React.Component {
               style={{ margin: 0 }}
               className="download-nav row justify-content-center"
             >
-              <a className="col-3" href="#">
+              <a className="col-6 col-sm-4 col-lg-2" href="#">
                 <li className="download-flex">
                   <img className="download-img" src={annualReport} />
                   <div>2017 ANNUAL REPORT</div>
                 </li>
               </a>
-              <div className="col-1" />
-              <a className="col-3" href="#">
+              <a className="col-6 col-sm-4 col-lg-2" href="#">
                 <li className="download-flex">
                   <img className="download-img" src={form10k} />
                   <div>Form 10-K</div>

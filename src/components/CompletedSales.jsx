@@ -48,7 +48,8 @@ class CompletedSales extends React.Component {
 
   render() {
     return (
-      <main className="col-md-4 completed-container">
+      <main className="col-md-3 d-flex justify-content-center">
+        <div className="completed-container">
         {this.state.isVisible ? (
           <div>
             <div className="completed-label">COMPLETED</div>
@@ -63,6 +64,7 @@ class CompletedSales extends React.Component {
           <div className="placeholder" />
         )}
         <VisibilitySensor onChange={this.handleVisibiltyChange} />
+      </div>
       </main>
     );
   }

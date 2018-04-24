@@ -61,7 +61,7 @@ class YearEndHighlights extends React.Component {
 
         <div className="row justify-content-center">
           <RoselandOperating />
-          <div className="col-2" />
+          <div className="col-1" />
           <IncreasedRoselandInt />
         </div>
       </main>

@@ -23,29 +23,30 @@ class FeaturedProperty1 extends React.Component {
   }
 
   render() {
-    let bubbleClass = 'bubble'
+    let bubbleClass = 'bubble hidden-md-down'
     if (this.props.slideIdx === this.props.currentSlide) {
-      bubbleClass = 'bubble animated zoomIn'
+      bubbleClass = 'bubble animated zoomIn hidden-md-down'
     }
     return (
-      <main className='property-component background-1'>
+      <div className='d-flex flex-column-reverse flex-md-row'>
+      <div className='property1-copy-container'>
+        <div className='property-title'>HARBORSIDE</div>
+        <div className='property-subtitle'>MACK-CALI'S CORPORATE HEADQUARTERS<br/>JERSEY CITY, NEW JERSEY</div>
+        <div className='property-copy'>
+          Harborside reshapes the way our work days unfold. With landmark
+          destination offices, collaborative lounges, boutique shopping,
+          world-class dining and an ever-changing social landscape, it brings
+          endless possibilities to every moment, and all against a backdrop
+          of New York City views. Spanning 4.3 million square feet of office
+          and retail space, and with another 1.1 million square feet planned,
+          Harborside and its six state-of-the-art class A buildings underscore
+          the distinctive character of the Jersey City Waterfront— an unrivaled
+          destination.
+        </div>
 
-          <div className='property1-copy-container'>
-            <div className='property-title'>HARBORSIDE</div>
-            <div className='property-subtitle'>MACK-CALI'S CORPORATE HEADQUARTERS<br/>JERSEY CITY, NEW JERSEY</div>
-            <div className='property-copy'>
-              Harborside reshapes the way our work days unfold. With landmark
-              destination offices, collaborative lounges, boutique shopping,
-              world-class dining and an ever-changing social landscape, it brings
-              endless possibilities to every moment, and all against a backdrop
-              of New York City views. Spanning 4.3 million square feet of office
-              and retail space, and with another 1.1 million square feet planned,
-              Harborside and its six state-of-the-art class A buildings underscore
-              the distinctive character of the Jersey City Waterfront— an unrivaled
-              destination.
-            </div>
+      </div>
+      <main className='property-component background-1 col-md-9'>
 
-          </div>
 
           <div className={bubbleClass} id='orange1'>
             The drastically transformed<br/>promanade tatsefully combines<br/>multiuse communal
@@ -67,6 +68,7 @@ class FeaturedProperty1 extends React.Component {
 
 
       </main>
+    </div>
     )
   }
 
