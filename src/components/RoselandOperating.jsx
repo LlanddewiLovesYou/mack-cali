@@ -51,7 +51,7 @@ class RoselandOperating extends React.Component {
                   {
                     barThickness: 72,
                     categoryPercentage: 0.74,
-                    ticks: { fontColor: "#008996", fontFamily: "Josefin Sans" },
+                    ticks: { fontColor: "#008996", fontFamily: "Josefin Sans", fontSize: 16 },
                     gridLines: {
                       display: false,
                       color: "rgba(0, 0, 0, 1)"

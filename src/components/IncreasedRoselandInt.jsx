@@ -43,7 +43,7 @@ class IncreasedRoselandInt extends React.Component {
                 }],
                 xAxes: [{barThickness: 72,
                   categoryPercentage: .74,
-                  ticks: {fontColor:'#008996', fontFamily:'Josefin Sans'},
+                  ticks: {fontColor:'#008996', fontFamily:'Josefin Sans', fontSize: 16 },
                   gridLines: {
                     display: false,
                     color: 'rgba(0, 0, 0, 1)'

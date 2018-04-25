@@ -55,7 +55,7 @@ class YearEndHighlights extends React.Component {
           <DoughLegend />
           <div className="col-md-8" id="footnote">
             <sup>1</sup>Based on the pro rata proportions of Property Net
-            Operating Income contribution across portfolio.
+              Operating Income contribution across the portfolio.
           </div>
         </div>
 

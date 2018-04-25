@@ -106,6 +106,7 @@
   border-radius: 50%;
   padding: auto auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 12px;
@@ -117,7 +118,7 @@
   background-color: rgba(185, 122, 60, 0.85);
   height: 230px;
   width: 230px;
-  top: 70px;
+  top: 100px;
   right: 45%
 }
 
@@ -125,16 +126,16 @@
   background-color: rgba(96, 30, 106, 0.85);
   height: 160px;
   width: 160px;
-  top: 265px;
-  left: 75%
+  top: 300px;
+  left: 70%;
 }
 
 #green1 {
   background-color: rgba(149, 166, 39, 0.85);
   height: 220px;
   width: 220px;
-  top: 68%;
-  right: 30%
+  top: 64%;
+right: 38%;
 }
 
 #aqua1 {
@@ -149,7 +150,7 @@
   background-color: rgba(185, 122, 60, 0.85);
   height: 200px;
   width: 200px;
-  top: 55px;
+  top: 85px;
   right: 42%;
 }
 
@@ -250,7 +251,7 @@
   background-color: rgba(96, 30, 106, 0.85);
 
 }
-
+<sto
 #mob-green {
   background-color: rgba(149, 166, 39, 0.85);
 
@@ -276,4 +277,9 @@
 .carousel_control.active {
   background-color: black;
   border: 2px solid black;
+}
+
+.bubble-bold {
+  font-size: 18px;
+  display: block
 }

@@ -33,15 +33,14 @@ class FeaturedProperty1 extends React.Component {
         <div className='property-title'>HARBORSIDE</div>
         <div className='property-subtitle'>MACK-CALI'S CORPORATE HEADQUARTERS<br/>JERSEY CITY, NEW JERSEY</div>
         <div className='property-copy'>
-          Harborside reshapes the way our work days unfold. With landmark
-          destination offices, collaborative lounges, boutique shopping,
-          world-class dining and an ever-changing social landscape, it brings
-          endless possibilities to every moment, and all against a backdrop
-          of New York City views. Spanning 4.3 million square feet of office
-          and retail space, and with another 1.1 million square feet planned,
-          Harborside and its six state-of-the-art class A buildings underscore
-          the distinctive character of the Jersey City Waterfront— an unrivaled
-          destination.
+          Harborside reshapes the way our work days unfold. With landmark destination
+          offices, collaborative lounges, boutique shopping, world-class dining
+          and an ever-changing social landscape, it brings endless possibilities
+          to every moment, and all against a backdrop of New York City views.
+          Spanning 4.3 million square feet of office and retail space, and with
+          another 1.1 million square feet planned, Harborside and its six state-of-the-art
+          class A buildings underscore the distinctive character of the Jersey City
+          waterfront— an unrivaled destination.
         </div>
 
       </div>
@@ -54,7 +53,7 @@ class FeaturedProperty1 extends React.Component {
             for events on the water.
           </div>
           <div className={bubbleClass} id='purple1'>
-            Jersey City<br/>Ranks 5th<br/>for best public<br/>transportation in the U.S.<br/>--Business Insider
+            Jersey City<strong className='bubble-bold'>Ranks 5th</strong>for best public<br/>transportation in the U.S.<br/>--Business Insider
           </div>
           <div className={bubbleClass} id='green1'>
             The extended promanade<br/>offers waterfront dining and retail<br/>options, designated areas
@@ -63,7 +62,7 @@ class FeaturedProperty1 extends React.Component {
           </div>
           <div className={bubbleClass} id='aqua1'>
             With all-new infrastructure,<br/>superior connectivity<br/>comprehensive updates inside<br/>
-          and out. Harborside<br/>best-in-class working
+          and out. Harborside<br/>best-in-class working community.
           </div>
 
 

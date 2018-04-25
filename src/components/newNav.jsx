@@ -10,7 +10,9 @@ import {
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/images/mack-cali.png";
 import annualReport from "../assets/images/Mack-Cali_Cover.jpg";
+import report from "../assets/images/187054_L01_Mack-Cali_2017AR.pdf";
 import form10k from "../assets/images/Mack-Cali_10K.jpg";
+import f10k from "../assets/images/187054_L01_FIN.pdf";
 import MenuIcon from "../assets/images/menu.svg";
 import "../assets/stylesheets/Navbar.css";
 
@@ -107,13 +109,13 @@ class MyNavbar extends React.Component {
               style={{ margin: 0 }}
               className="download-nav row justify-content-center"
             >
-              <a className="col-6 col-sm-4 col-lg-2" href="#">
+              <a className="col-6 col-sm-4 col-lg-2" href={report} target='_blank'>
                 <li className="download-flex">
                   <img className="download-img" src={annualReport} />
                   <div className='download-labels'>2017 <br/>ANNUAL REPORT</div>
                 </li>
               </a>
-              <a className="col-6 col-sm-4 col-lg-2" href="#">
+              <a className="col-6 col-sm-4 col-lg-2" href={f10k} target='_blank'>
                 <li className="download-flex">
                   <img className="download-img" src={form10k} />
                   <div className='download-labels'>Form 10-K</div>

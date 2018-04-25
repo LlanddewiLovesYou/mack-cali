@@ -57,7 +57,7 @@ class CompletedSales extends React.Component {
               $1,{this.state.completedCount}m
             </div>
             <div className="completed-label">
-              Non-Core Asset Sales<br />2015-2017
+              Non-Core Asset Sales<br />Since 2015
             </div>
           </div>
         ) : (

@@ -28,16 +28,15 @@ class AboutUs extends React.Component {
             <div className="row justify-content-center">
               <div className="col-10 col-md-8">
                 <p>
-                  Mack-Cali Realty Corporation is an owner, manager and
-                  developer of premier office and multifamily properties in
-                  select waterfront and transit-oriented markets throughout the
-                  Northeast. Mack-Cali is headquartered in Jersey City, New
-                  Jersey, and is the visionary behind the city&#39;s flourishing
-                  waterfront, where the company is leading development,
-                  improvement and place-making initiatives for Harborside, a
-                  master-planned destination comprised of class A offices,
-                  luxury apartments, diverse retail and restaurants, and public
-                  space.
+                  Mack-Cali Realty Corporation is an owner, manager and developer
+                  of premier office and multifamily properties in select
+                  waterfront and transit-oriented markets throughout the Northeast.
+                  Mack-Cali is headquartered in Jersey City, New Jersey, and is the
+                  visionary behind the city's flourishing waterfront, where the
+                  company is leading development, improvement and place-making
+                  initiatives for Harborside, a master-planned destination comprised
+                  of class A offices, luxury apartments, diverse retail and
+                  restaurants, and public spaces.
                 </p>
                 <p className="last-p">
                   A fully-integrated and self-managed company, Mack-Cali has
