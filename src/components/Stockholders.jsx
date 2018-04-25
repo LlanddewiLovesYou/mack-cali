@@ -156,12 +156,12 @@ class Stockholders extends React.Component {
                 <div className="signature" id="sig-1">
                   <img src={micheal} />
                   <div>Micheal J. DeMarco</div>
-                  <br />Chief Executive Officer
+                  Chief Executive Officer
                 </div>
                 <div className="signature" id="sig-2">
                   <img src={marshall} />
                   <div>Marshall B. Tycher</div>
-                  <br />Chairman of Roseland<br />Residential Trust
+                  Chairman of Roseland<br />Residential Trust
                 </div>
               </div>
               <div className="sig-date">April 10, 2018</div>
