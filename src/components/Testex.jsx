@@ -45,23 +45,25 @@ export default class MobileProperties extends React.Component {
           <div className='property-title'>PORT IMPERIAL</div>
           <div className='property-subtitle'>WEEHAWKEN, NEW JERSEY</div>
           <div className='property-mob-copy'>
-            2017 ANNUAL REPORT Weehawken Ranked #1 Best Places to Raise
-            a Family in Hudson County Source: Niche Media 2018 Best Places
-            West New York Earns Walk Score: 94 Source: Walk Score For three
-            decades, Roseland, a subsidiary of Mack-Cali, has played an integral
-            role in the creation of the Port Imperial neighborhood, and the
-            revitalization of the Hudson River waterfront in Weehawken and
-            West New York. As part of a $2-billion, 200-acre master-planned
-            development, Roseland has brought more than 2,600 apartments to
-            market at Port Imperial, and has more than 2,000 apartments in
-            the pipeline.
-            <br/>
-            <br/>
-            Now is the opportunity to elevate Port Imperial’s profile as a
-            premier destination for renters who value the rare combination
-            of luxury living, dining and retail, world-class views of Manhattan,
-            convenient transportation access, and open space that is difficult
-            to find in the New York Metropolitan Area.
+            <p>
+              2017 ANNUAL REPORT Weehawken Ranked #1 Best Places to Raise
+              a Family in Hudson County Source: Niche Media 2018 Best Places
+              West New York Earns Walk Score: 94 Source: Walk Score For three
+              decades, Roseland, a subsidiary of Mack-Cali, has played an integral
+              role in the creation of the Port Imperial neighborhood, and the
+              revitalization of the Hudson River waterfront in Weehawken and
+              West New York. As part of a $2-billion, 200-acre master-planned
+              development, Roseland has brought more than 2,600 apartments to
+              market at Port Imperial, and has more than 2,000 apartments in
+              the pipeline.
+            </p>
+            <p>
+              Now is the opportunity to elevate Port Imperial’s profile as a
+              premier destination for renters who value the rare combination
+              of luxury living, dining and retail, world-class views of Manhattan,
+              convenient transportation access, and open space that is difficult
+              to find in the New York Metropolitan Area.
+            </p>
           </div>
 
           <ul className='bubble-list'>

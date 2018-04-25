@@ -17,7 +17,7 @@ class IncreasedRoselandInt extends React.Component {
 
   render() {
     return (
-        <div className='col-md-3'>
+        <div className='col-lg-3 chart-margin'>
           <div className="chart-heading">Increased Roseland Ownership Interest</div>
           {  this.state.isVisible ?
           <Bar data={{

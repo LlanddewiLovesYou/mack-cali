@@ -5,7 +5,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <div className='footer'>
-        Mack-Cali Real Estate Corporation &copy;2018   
+         2018 &copy; Mack-Cali Realty Corporation   
       </div>
     );
   }

@@ -19,6 +19,13 @@
   min-width: 300px;
 }
 
+@media screen and (max-width: 600px) {
+  .about-heading {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+}
+
 .pipes {
   color: #7c7979;
   font-size: 18px;
@@ -45,4 +52,10 @@
   /* margin: 5px 100px; */
   font-size: 28px;
   font-weight: lighter;
+}
+
+@media screen and (max-width: 700px) {
+  .about-container p {
+    font-size: 20px;
+  }
 }

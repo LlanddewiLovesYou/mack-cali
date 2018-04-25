@@ -15,7 +15,7 @@ class AboutUs extends React.Component {
         <div className="about justify-content-center">
           <div className="about-container justify-content-center">
             <div className="row justify-content-center">
-              <div className="about-heading col-8">
+              <div className="about-heading col-10 col-md-8">
                 <div className="pipes" id="left-pipe">
                   |
                 </div>
@@ -26,7 +26,7 @@ class AboutUs extends React.Component {
               </div>
             </div>
             <div className="row justify-content-center">
-              <div className="col-8">
+              <div className="col-10 col-md-8">
                 <p>
                   Mack-Cali Realty Corporation is an owner, manager and
                   developer of premier office and multifamily properties in

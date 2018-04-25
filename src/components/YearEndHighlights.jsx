@@ -13,6 +13,10 @@ import DoughLegend from "./DoughLegend";
 import GAAPRoll from "./GAAPRoll";
 import CompletedSales from "./CompletedSales";
 import "chart.piecelabel.js/build/Chart.PieceLabel.min.js";
+import { Chart } from "react-chartjs-2";
+
+Chart.defaults.global.animation.duration = 2000;
+
 
 class YearEndHighlights extends React.Component {
   constructor(props) {
@@ -22,17 +26,17 @@ class YearEndHighlights extends React.Component {
   render() {
     return (
       <main className="yearend-graphs-container">
-        <div className="row">
-          <div className="col-6 offset-1 yearend-title">
+        <div id="title-row" className="row justify-content-center justify-content-sm-start">
+          <div className="col-11 offset-sm-1 yearend-title">
             Year-end Highlights
           </div>
         </div>
-        <div className="row flex-column flex-md-row justify-content-around">
-          <div className="col-xs-1" />
+        <div className="row align-items-center flex-column flex-lg-row justify-content-lg-center">
+
           <OfficeBaseRent />
           <GAAPRoll />
           <CompletedSales />
-          <div className="col-xs-1" />
+
         </div>
         <div className="row">
           <hr className="col-md-10 offset-md-1 hr" />
@@ -42,7 +46,7 @@ class YearEndHighlights extends React.Component {
             Increased Portfolio Composition<sup>1</sup>
           </div>
         </div>
-        <div className="row justify-content-center">
+        <div className="row flex-column align-items-center flex-lg-row justify-content-center">
           <Dough2015 />
           <Dough2016 />
           <Dough2017 />
@@ -59,7 +63,7 @@ class YearEndHighlights extends React.Component {
           <hr className="col-md-10 offset-md-1 hr" />
         </div>
 
-        <div className="row justify-content-center">
+        <div className="row flex-column align-items-center flex-lg-row justify-content-center">
           <RoselandOperating />
           <div className="col-1" />
           <IncreasedRoselandInt />

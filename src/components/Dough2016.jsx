@@ -20,7 +20,7 @@ class Dough2016 extends React.Component {
 
   render() {
     return (
-      <div className="col-md-3 box">
+      <div className="col-lg-3 box chart-margin">
         {this.state.isVisible ? (
           <Doughnut
             data={{

@@ -38,8 +38,8 @@ class MyNavbar extends React.Component {
     return (
       <nav>
         <img src={Logo} id="mack-logo" />
-        <Navbar className="custom-nav" expand="md">
-          <NavbarBrand id="annual-link" style={{ marginLeft: "50px" }}>
+        <Navbar className="custom-nav" expand="lg">
+          <NavbarBrand id="annual-link">
             2017 ANNUAL REPORT
           </NavbarBrand>
           <NavbarToggler id="menu-icon" onClick={this.toggle}>
@@ -47,12 +47,12 @@ class MyNavbar extends React.Component {
           </NavbarToggler>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav style={{ width: "100%" }} className="flex-column flex-md-row">
-              <NavItem className="flex-md-fill text-md-center">
+              <NavItem className="flex-md-fill text-md-center" onClick={this.toggle}>
                 <NavLink className="nav-link" to="/home">
                   Home
                 </NavLink>
               </NavItem>
-              <NavItem className="flex-md-fill text-md-center">
+              <NavItem className="flex-md-fill text-md-center" onClick={this.toggle}>
                 <NavLink
                   className="nav-link"
                   activeClassName="active"
@@ -61,7 +61,7 @@ class MyNavbar extends React.Component {
                   About Us
                 </NavLink>
               </NavItem>
-              <NavItem className="flex-md-fill text-md-center">
+              <NavItem className="flex-md-fill text-md-center" onClick={this.toggle}>
                 <NavLink
                   className="nav-link"
                   activeClassName="active"
@@ -70,16 +70,16 @@ class MyNavbar extends React.Component {
                   Year-end Highlights
                 </NavLink>
               </NavItem>
-              <NavItem className="flex-md-fill text-md-center">
+              <NavItem className="flex-md-fill text-md-center" onClick={this.toggle}>
                 <NavLink
                   className="nav-link"
                   activeClassName="active"
                   to="/Stockholders"
                 >
-                  Stockholders&#39; letter
+                  Stockholders&#39; Letter
                 </NavLink>
               </NavItem>
-              <NavItem className="flex-md-fill text-md-center">
+              <NavItem className="flex-md-fill text-md-center" onClick={this.toggle}>
                 <NavLink
                   className="nav-link"
                   activeClassName="active"
@@ -88,7 +88,7 @@ class MyNavbar extends React.Component {
                   Featured Properties
                 </NavLink>
               </NavItem>
-              <NavItem className="flex-sm-fill text-md-center">
+              <NavItem className="flex-sm-fill text-md-center" onClick={this.toggle}>
                 <NavLink
                   className={`${this.state.downloads ? "active" : ""} nav-link`}
                   activeClassName="active"
@@ -110,13 +110,13 @@ class MyNavbar extends React.Component {
               <a className="col-6 col-sm-4 col-lg-2" href="#">
                 <li className="download-flex">
                   <img className="download-img" src={annualReport} />
-                  <div>2017 ANNUAL REPORT</div>
+                  <div className='download-labels'>2017 <br/>ANNUAL REPORT</div>
                 </li>
               </a>
               <a className="col-6 col-sm-4 col-lg-2" href="#">
                 <li className="download-flex">
                   <img className="download-img" src={form10k} />
-                  <div>Form 10-K</div>
+                  <div className='download-labels'>Form 10-K</div>
                 </li>
               </a>
             </ul>

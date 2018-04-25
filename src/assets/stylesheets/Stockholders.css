@@ -9,7 +9,7 @@
   /* grid-template-columns: 200px 1fr 200px; */
   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
   /* margin: 0 200px; */
-  margin-top: 85px;
+
   position: relative;
 }
 
@@ -26,39 +26,54 @@
 }
 
 #stockholder-greeting {
-  max-width: 1000px;
+  /* max-width: 1000px; */
   padding: 0;
+  margin-left: 15px;
   font-size: 36px;
   font-weight: lighter;
   margin-top: 85px;
 }
 
+@media screen and (max-width: 600px) {
+  #stockholder-greeting {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+
+  #first-paragraph {
+    font-size: 18px;
+  }
+
+  .stockholder-container p {
+    font-size: 16px;
+  }
+}
+
 .stockholder-container p {
   font-weight: lighter;
   font-size: 18px;
-  max-width: 1000px;
+
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
 .signature-container {
   /* margin: 0 265px; */
-  display: flex;
-  flex-direction: row;
+
 
   /* font-size: 20px; */
 }
 
 .center-container {
-  max-width: 1000px;
+  /* max-width: 1000px; */
   padding: 0;
 
 }
 
 .signature {
   margin-right: 75px;
-  margin-left: none;
-  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-bottom: 50px;
   font-size: 16px;
   display: flex;
   flex-direction: column;
@@ -75,8 +90,7 @@
 }
 
 .sig-date {
-  /* margin: 10px 265px;
-  margin-bottom: 70px; */
+  margin-left: 15px;
 }
 
 .stockholder-stats-container {

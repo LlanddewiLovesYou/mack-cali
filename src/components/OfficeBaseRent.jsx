@@ -16,10 +16,13 @@ class OfficeBaseRent extends React.Component {
 
   render() {
     return (
-      <div className="col-md-3">
+      <div className="col-lg-3 chart-margin">
         <div className="chart-heading">
           Average Office Base Rent Per Sq. Ft.
         </div>
+        <VisibilitySensor
+          onChange={isVisible => this.setState({ isVisible })}
+          />
         {this.state.isVisible ? (
           <Bar
             data={{
@@ -89,9 +92,6 @@ class OfficeBaseRent extends React.Component {
         ) : (
           <div className="placeholder" />
         )}
-        <VisibilitySensor
-          onChange={isVisible => this.setState({ isVisible })}
-        />
       </div>
     );
   }

@@ -10,6 +10,7 @@ import FeaturedProperty1 from "./FeaturedProperty1";
 import FeaturedProperty2 from "./FeaturedProperty2";
 import FeaturedProperty3 from "./FeaturedProperty3";
 
+
 class CustomDots extends React.Component {
   shouldComponentUpdate(nextProps, nextState) {
     return this.props.currentSlide !== nextProps.currentSlide;
@@ -46,11 +47,11 @@ class FeaturedProperties extends React.Component {
     return (
       <div className="">
         <main
-          className="d-none d-lg-block"
-          style={{ width: "100vw", height: "90vh" }}
+          className="d-none d-xl-block"
+          style={{ width: "100vw", height: "85vh" }}
         >
           <Carousel
-            style={{ width: "100vw", height: "90vh" }}
+            style={{ width: "100vw", height: "85vh" }}
             id="carousel"
             slideIndex={this.state.slideIndex}
             afterSlide={slideIndex => this.setState({ slideIndex })}
@@ -91,7 +92,7 @@ class FeaturedProperties extends React.Component {
               );
             }}
 
-            renderBottomCenterControls={() => null} 
+            renderBottomCenterControls={() => null}
           >
             <FeaturedProperty1
               currentSlide={this.state.slideIndex}
@@ -110,7 +111,7 @@ class FeaturedProperties extends React.Component {
             />
           </Carousel>
         </main>
-        <main className="d-block d-lg-none">
+        <main className="d-block d-xl-none">
           <MobileProperties />
         </main>
       </div>

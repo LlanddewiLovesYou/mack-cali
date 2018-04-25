@@ -18,13 +18,13 @@ class Stockholders extends React.Component {
         <summary className="stockholder-container">
           <div className="row justify-content-center">
 
-          <div className="col-8" id="stockholder-greeting">
+          <div className="col-10 col-sm-8" id="stockholder-greeting">
             To Our Stockholders:
           </div>
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-8">
+            <div className="col-10 col-sm-8">
               <p id="first-paragraph">
                 By executing on our plan to constantly evolve and improve the
                 Mack-Cali portfolio, we believe we have established the finest
@@ -155,16 +155,16 @@ class Stockholders extends React.Component {
                 portfolio in the country. As always, we thank you, our investors
                 for all of your continued support.
               </p>
-              <br />
+
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-8 center-container">
-              <div className="signature-container">
+            <div className="col-10 col-sm-8 center-container">
+              <div className="signature-container d-flex flex-column flex-sm-row">
                 <div className="signature" id="sig-1">
                   <img src={micheal} />
-                  <div>Micheal J. Demarco</div>
-                  <br />Cheif Executive Officer
+                  <div>Micheal J. DeMarco</div>
+                  <br />Chief Executive Officer
                 </div>
                 <div className="signature" id="sig-2">
                   <img src={marshall} />
@@ -172,7 +172,7 @@ class Stockholders extends React.Component {
                   <br />Chairman of Roseland<br />Residential Trust
                 </div>
               </div>
-              <div className="sig-date">April 17, 2018</div>
+              <div className="sig-date">April 10, 2018</div>
             </div>
           </div>
         </summary>

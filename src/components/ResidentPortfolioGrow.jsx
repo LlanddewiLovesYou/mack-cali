@@ -16,9 +16,8 @@ class ResidentPortfolioGrow extends React.Component {
   }
 
   render() {
-    debugger
     return (
-        <div className='col-md-5 col-md-offset-2'>
+        <div className='col-md-5 col-md-offset-2 chart-margin'>
           {  this.state.isVisible ?
           <div className="chart-heading">Residential Portfolio Growing FFO Contribution</div>
           <Bar data={{

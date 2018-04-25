@@ -77,7 +77,25 @@ a:hover {
   height: 110px;
 }
 
+#annual-link {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  #mack-logo {
+    margin-left: 10px;
+  }
+
+  #annual-link {
+    margin-left: 10px;
+  }
+}
+
 .custom-nav {
   background-color: #d6edee;
   color: black;
+}
+
+.download-labels {
+  margin: 7px 0px;
 }

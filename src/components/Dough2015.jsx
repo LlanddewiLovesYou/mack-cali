@@ -1,13 +1,13 @@
 import React from "react";
 import graphConstruction from "../assets/images/graphconstruction.png";
 import "../assets/stylesheets/YearEndHighlight.css";
-import { Chart, Doughnut } from "react-chartjs-2";
+import { Chart, Doughnut, defaults } from "react-chartjs-2";
 import VisibilitySensor from "react-visibility-sensor";
 
 // import Navbar from './Navbar'
 // import OfficeBaseRent from './OfficeBaseRent'
 // import IncreasedRoselandInt from './IncreasedRoselandInt'
-// import ResidentPortfolioGrow from './ResidentPortfolioGrow'
+// import ResidentPortfolioGrow from './ResidentPortfolioGrow
 
 class Dough2015 extends React.Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class Dough2015 extends React.Component {
 
   render() {
     return (
-      <div className="col-md-3 box">
+      <div className="col-lg-3 box chart-margin">
         {this.state.isVisible ? (
           <Doughnut
             data={{
@@ -51,6 +51,9 @@ class Dough2015 extends React.Component {
                   bottom: 0,
                   left: 10,
                   right: 10
+                },
+                animation: {
+                  duration: 3000
                 }
               },
               cutoutPercentage: 65,

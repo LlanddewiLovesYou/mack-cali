@@ -48,7 +48,7 @@ class CompletedSales extends React.Component {
 
   render() {
     return (
-      <main className="col-md-3 d-flex justify-content-center">
+      <main className="col-lg-3 d-flex justify-content-center chart-margin">
         <div className="completed-container">
         {this.state.isVisible ? (
           <div>

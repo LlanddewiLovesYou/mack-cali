@@ -47,7 +47,7 @@ class GAAPRoll extends React.Component {
       this.incrementCounts();
     }
     return (
-      <main className="col-md-3">
+      <main className="col-lg-3 chart-margin">
         {this.state.isVisible ? (
           <div className="gaap-container">
             <div className="gaap-label">
