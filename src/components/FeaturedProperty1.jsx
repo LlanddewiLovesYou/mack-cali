@@ -48,21 +48,22 @@ class FeaturedProperty1 extends React.Component {
 
 
           <div className={bubbleClass} id='orange1'>
-            The drastically transformed<br/>promanade tatsefully combines<br/>multiuse communal
-            spaces,<br/>collaborative lounges and a<br/>stylish floating stage designated<br/>
-            for events on the water.
+            The dramatically transformed<br/>promenade tastefully combines<br/>multi-use
+            communal spaces,<br/>collaborative lounges and a<br/>stylish floating stage<br/>
+            designated for events on the water.
           </div>
           <div className={bubbleClass} id='purple1'>
-            Jersey City<strong className='bubble-bold'>Ranks 5th</strong>for best public<br/>transportation in the U.S.<br/>--Business Insider
+            Jersey City<strong className='bubble-bold'>Ranks 5th</strong>for best public<br/>transportation in the U.S.<br/>&mdash;Business Insider
           </div>
           <div className={bubbleClass} id='green1'>
-            The extended promanade<br/>offers waterfront dining and retail<br/>options, designated areas
-            for<br/>events, pop-ups and programming,<br/>and mutiple viewing points<br/>with spectacular unobstructed<br/>views
-            of New York City.
+            The extended promenade<br/>offers waterfront dining and retail<br/>options,
+            designated areas for<br/>events, pop-ups and programming,<br/>and multiple
+            viewing points<br/>with spectacular unobstructed<br/>views of New York City.
           </div>
           <div className={bubbleClass} id='aqua1'>
-            With all-new infrastructure,<br/>superior connectivity<br/>comprehensive updates inside<br/>
-          and out. Harborside<br/>best-in-class working community.
+            With all-new infrastructure,<br/>superior connectivity and<br/>comprehensive
+            updates inside<br/>and out, Harborside represents a<br/>best-in-class working
+            community.
           </div>
 
 
