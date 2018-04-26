@@ -137,7 +137,9 @@ class Stockholders extends React.Component {
                 is well worth the navigation. That’s where we see ourselves today:
                 taking an unexpected turn, but acknowledging that we have, and continue
                 to, make the right decisions to position Mack-Cali for NAV growth and
-                stronger cash flow-generation in the future. We would like to thank
+                stronger cash flow-generation in the future.</p>
+
+                <p>We would like to thank
                 each and every member of our hardworking team for their efforts on
                 this journey. We feel compelled to single out our talented
                 colleagues—Ricardo Cardoso, our CIO, who has done a truly superb

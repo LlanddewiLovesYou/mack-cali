@@ -43,14 +43,14 @@ class FeaturedProperty2 extends React.Component {
 
 
             <div className={bubbleClass} id='orange2'>
-              <div className='bubble-bold'>Weehawken</div><div className='bubble-bold'>Ranked #1</div>best places to raise a<br/>family in Hudson County
-              <br/><br/>Source: Niche Media<br/>2018 Best Places
+              <div className='bubble-bold'>Weehawken</div><div className='bubble-bold'>Ranked #1</div>Amongst Best Places to Raise <br/> a Family in Hudson County
+              <br/><br/>&mdash;Niche Media<br/>2018 Best Places
             </div>
             <div className={bubbleClass} id='purple2'>
               <div className='bubble-bold'>Roseland has<br/>more than 2,000<br/>apartment units<br/>in the pipeline.</div>
             </div>
             <div className={bubbleClass} id='aqua2'>
-              West New York Earns<div className='bubble-bold'>Walk Score: 94</div>Source: Walk Score
+              West New York Earns<div className='bubble-bold'>Walk Score: 94</div>&mdash;Walk Score
             </div>
 
         </div>

@@ -43,7 +43,7 @@ class YearEndHighlights extends React.Component {
         </div>
         <div className="row">
           <div className="col-md-12 donut-heading">
-            Increased Portfolio Composition<sup>1</sup>
+            Improving Portfolio Composition<sup>1</sup>
           </div>
         </div>
         <div className="row flex-column align-items-center flex-lg-row justify-content-center">
