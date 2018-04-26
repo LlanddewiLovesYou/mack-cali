@@ -17,7 +17,7 @@ class SplashPage extends React.Component {
 
         <Link to='/Stockholders'><div className='splash-image-container'>
           <img className='splash-image' src={splashImage}/>
-          <div className='read-stockholders'>READ STOCKHOLDER'S LETTER
+          <div className='read-stockholders'>READ STOCKHOLDERS LETTER
             <img className='arrow' src={arrow}/>
           </div>
         </div></Link>

@@ -67,7 +67,7 @@ class MyNavbar extends React.Component {
                   activeClassName="active"
                   to="/Stockholders"
                 >
-                  Stockholders&#39; Letter
+                  Stockholders Letter
                 </NavLink>
               </NavItem>
               <NavItem className="flex-md-fill text-md-center" onClick={this.toggle}>

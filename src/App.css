@@ -41,6 +41,7 @@
 
 .download-labels {
   margin: 7px 0px;
+  min-width: 142px;
 }
 
 @media screen and (max-width: 1000px) {
