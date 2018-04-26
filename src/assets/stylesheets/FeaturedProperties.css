@@ -41,7 +41,8 @@
   background-color: #0a0405;
   z-index: 3;
   min-width: 465px;
-  padding: 55px
+  padding: 55px;
+  padding-bottom: 0px;
 
 }
 
@@ -57,7 +58,6 @@
 .property-title {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
   color: white;
 }
 
@@ -160,6 +160,7 @@
   width: 160px;
   top: 60%;
   right: 20%;
+  line-height: 1.2;
 }
 
 #aqua2 {
@@ -171,8 +172,8 @@
 }
 
 .chevron {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   /* filter: opacity(.75) */
   color: white;
   filter:brightness(20);

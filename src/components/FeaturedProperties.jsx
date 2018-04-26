@@ -10,31 +10,6 @@ import FeaturedProperty1 from "./FeaturedProperty1";
 import FeaturedProperty2 from "./FeaturedProperty2";
 import FeaturedProperty3 from "./FeaturedProperty3";
 
-
-class CustomDots extends React.Component {
-  shouldComponentUpdate(nextProps, nextState) {
-    return this.props.currentSlide !== nextProps.currentSlide;
-  }
-
-  render() {
-    let props = this.props;
-    let slideCount = props.slideCount;
-    let buttons = [];
-    for (let i = 0; i < slideCount; i++) {
-      let active = props.currentSlide === i ? "active" : "";
-      buttons.push(
-        <li
-          className={"carousel_control " + active}
-          key={i}
-          onClick={props.goToSlide.bind(null, i)}
-        />
-      );
-    }
-
-    return <ul className="carousel_controls">{buttons}</ul>;
-  }
-}
-
 class FeaturedProperties extends React.Component {
   constructor(props) {
     super(props);
@@ -55,23 +30,6 @@ class FeaturedProperties extends React.Component {
             id="carousel"
             slideIndex={this.state.slideIndex}
             afterSlide={slideIndex => this.setState({ slideIndex })}
-            renderTopCenterControls={({
-              previousSlide,
-              nextSlide,
-              slideCount,
-              currentSlide,
-              goToSlide
-            }) => {
-              return (
-                <CustomDots
-                  goToSlide={goToSlide}
-                  previousSlide={previousSlide}
-                  currentSlide={currentSlide}
-                  previousSlide={previousSlide}
-                  slideCount={slideCount}
-                />
-              );
-            }}
             renderCenterRightControls={({ nextSlide }) => {
               return (
                 <img

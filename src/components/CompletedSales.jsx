@@ -42,7 +42,7 @@ class CompletedSales extends React.Component {
     this.setState({ completedCount, complete });
 
     if (!this.state.complete) {
-      setTimeout(this.incrementCounts, 50);
+      setTimeout(this.incrementCounts, 100);
     }
   }
 

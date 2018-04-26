@@ -38,8 +38,8 @@ class YearEndHighlights extends React.Component {
           <CompletedSales />
 
         </div>
-        <div className="row">
-          <hr className="col-md-10 offset-md-1 hr" />
+        <div className="row d-flex justify-content-center">
+          <hr className="col-lg-8 hr" />
         </div>
         <div className="row">
           <div className="col-md-12 donut-heading">
@@ -59,8 +59,8 @@ class YearEndHighlights extends React.Component {
           </div>
         </div>
 
-        <div className="row">
-          <hr className="col-md-10 offset-md-1 hr" />
+        <div className="row d-flex justify-content-center">
+          <hr className="col-lg-8 hr" />
         </div>
 
         <div className="row flex-column align-items-center flex-lg-row justify-content-center">

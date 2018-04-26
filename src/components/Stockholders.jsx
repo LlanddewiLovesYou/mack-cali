@@ -155,7 +155,7 @@ class Stockholders extends React.Component {
               <div className="signature-container d-flex flex-column flex-sm-row">
                 <div className="signature" id="sig-1">
                   <img src={micheal} />
-                  <div>Micheal J. DeMarco</div>
+                  <div>Michael J. DeMarco</div>
                   Chief Executive Officer
                 </div>
                 <div className="signature" id="sig-2">

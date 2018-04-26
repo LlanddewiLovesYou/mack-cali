@@ -136,6 +136,7 @@ canvas {
   max-width:420px;
   min-height: 320px;
   padding: 20px;
+  margin-right: 20px;
   background-color: #f4f6e4;
   color: #008996;
   display: flex;

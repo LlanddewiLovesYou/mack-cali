@@ -31,7 +31,7 @@ class FeaturedProperty1 extends React.Component {
       <div className='d-flex flex-column-reverse flex-md-row'>
       <div className='property1-copy-container'>
         <div className='property-title'>HARBORSIDE</div>
-        <div className='property-subtitle'>MACK-CALI'S CORPORATE HEADQUARTERS<br/>JERSEY CITY, NEW JERSEY</div>
+        <div className='property-subtitle'>MACK-CALI'S CORPORATE HEADQUARTERS:<br/>JERSEY CITY, NEW JERSEY</div>
         <div className='property-copy'>
           Harborside reshapes the way our work days unfold. With landmark destination
           offices, collaborative lounges, boutique shopping, world-class dining
