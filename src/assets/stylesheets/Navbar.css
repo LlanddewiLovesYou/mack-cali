@@ -48,33 +48,12 @@ a:hover {
   outline: none;
 }
 
-.downloads {
-  background-color: #b8dfe0;
-  width: 100%;
-}
-
-.download-nav {
-  list-style: none;
-  padding-top: 20px;
-}
-
-.download-img {
-  width: 150px;
-}
-
-.download-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-width: 30%;
-  margin-right: 20px;
-}
 
 #mack-logo {
   margin-left: 50px;
   height: 110px;
+  padding: 5px;
+  padding-left: 1rem;
 }
 
 #annual-link {
@@ -94,8 +73,4 @@ a:hover {
 .custom-nav {
   background-color: #d6edee;
   color: black;
-}
-
-.download-labels {
-  margin: 7px 0px;
 }

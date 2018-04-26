@@ -1,5 +1,6 @@
 .App {
   overflow-x: hidden;
+
 }
 
 .footer {
@@ -10,4 +11,46 @@
   padding: 3px;
   font-size: 12px;
   /* margin-right: 20px; */
+}
+
+
+.downloads {
+  background-color: #b8dfe0;
+  width: 100%;
+}
+
+.download-nav {
+  min-height: 85vh;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.download-img {
+  width: 300px;
+}
+
+.download-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 30%;
+  margin-right: 20px;
+}
+
+.download-labels {
+  margin: 7px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  .download-img {
+    width: 215px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .download-img {
+    width: 125px;
+  }
 }

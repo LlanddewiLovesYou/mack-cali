@@ -9,10 +9,6 @@ import {
 } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/images/mack-cali.png";
-import annualReport from "../assets/images/Mack-Cali_Cover.jpg";
-import report from "../assets/images/187054_L01_Mack-Cali_2017AR.pdf";
-import form10k from "../assets/images/Mack-Cali_10K.jpg";
-import f10k from "../assets/images/187054_L01_FIN.pdf";
 import MenuIcon from "../assets/images/menu.svg";
 import "../assets/stylesheets/Navbar.css";
 
@@ -20,20 +16,13 @@ class MyNavbar extends React.Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
-    this.downloads = this.downloads.bind(this);
     this.state = {
-      isOpen: false,
-      downloads: false
+      isOpen: false
     };
   }
 
   toggle() {
     this.setState({ isOpen: !this.state.isOpen });
-  }
-
-  downloads(e) {
-    e.preventDefault();
-    this.setState({ downloads: !this.state.downloads });
   }
 
   render() {
@@ -92,10 +81,9 @@ class MyNavbar extends React.Component {
               </NavItem>
               <NavItem className="flex-sm-fill text-md-center" onClick={this.toggle}>
                 <NavLink
-                  className={`${this.state.downloads ? "active" : ""} nav-link`}
+                  className="nav-link"
                   activeClassName="active"
-                  to="/downloads"
-                  onClick={this.downloads}
+                  to="/Downloads"
                 >
                   Downloads
                 </NavLink>
@@ -103,27 +91,7 @@ class MyNavbar extends React.Component {
             </Nav>
           </Collapse>
         </Navbar>
-        {this.state.downloads ? (
-          <section className="downloads">
-            <ul
-              style={{ margin: 0 }}
-              className="download-nav row justify-content-center"
-            >
-              <a className="col-6 col-sm-4 col-lg-2" href={report} target='_blank'>
-                <li className="download-flex">
-                  <img className="download-img" src={annualReport} />
-                  <div className='download-labels'>2017 <br/>ANNUAL REPORT</div>
-                </li>
-              </a>
-              <a className="col-6 col-sm-4 col-lg-2" href={f10k} target='_blank'>
-                <li className="download-flex">
-                  <img className="download-img" src={form10k} />
-                  <div className='download-labels'>Form 10-K</div>
-                </li>
-              </a>
-            </ul>
-          </section>
-        ) : null}
+
       </nav>
     );
   }

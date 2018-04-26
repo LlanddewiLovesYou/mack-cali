@@ -8,6 +8,10 @@ import Stockholders from "./components/Stockholders.jsx";
 import YearEndHighlights from "./components/YearEndHighlights.jsx";
 import FeaturedProperties from "./components/FeaturedProperties.jsx";
 import Footer from "./components/Footer.jsx";
+import annualReport from "./assets/images/Mack-Cali_Cover.jpg";
+import report from "./assets/images/187054_L01_Mack-Cali_2017AR.pdf";
+import form10k from "./assets/images/Mack-Cali_10K.jpg";
+import f10k from "./assets/images/187054_L01_FIN.pdf";
 
 class App extends Component {
   render() {
@@ -30,6 +34,11 @@ class App extends Component {
               path="/FeaturedProperties"
               component={FeaturedProperties}
             />
+          <Route
+            exact
+            path="/Downloads"
+            component={Downloads}
+            />
           </Switch>
           <Footer />
         </div>
@@ -39,3 +48,26 @@ class App extends Component {
 }
 
 export default App;
+
+
+const Downloads = () => (
+  <section className="downloads">
+    <ul
+      style={{ margin: 0 }}
+      className="download-nav row d-flex flex-column flex-sm-row justify-content-center align-items-center"
+    >
+      <a className="col-6 col-sm-4" href={report} target='_blank'>
+        <li className="download-flex">
+          <img className="download-img" src={annualReport} />
+          <div className='download-labels'>2017 Annual Report</div>
+        </li>
+      </a>
+      <a className="col-6 col-sm-4" href={f10k} target='_blank'>
+        <li className="download-flex">
+          <img className="download-img" src={form10k} />
+          <div className='download-labels'>Form 10-K</div>
+        </li>
+      </a>
+    </ul>
+  </section>
+)
