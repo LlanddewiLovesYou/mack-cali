@@ -26,8 +26,8 @@ class YearEndHighlights extends React.Component {
   render() {
     return (
       <main className="yearend-graphs-container">
-        <div id="title-row" className="row justify-content-center justify-content-sm-start">
-          <div className="col-11 offset-sm-1 yearend-title">
+        <div id="title-row" className="row d-flex align-items-center justify-content-center justify-content-sm-start">
+          <div className="col-9 offset-sm-2 yearend-title">
             Year-end Highlights
           </div>
         </div>

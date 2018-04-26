@@ -38,6 +38,7 @@
   margin-top: 85px;
   margin-bottom: 75px;
   font-weight: lighter;
+  padding-left: 0;
 }
 
 @media screen and (max-width: 600px) {

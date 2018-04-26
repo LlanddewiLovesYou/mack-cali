@@ -6,7 +6,7 @@ class GAAPRoll extends React.Component {
     super(props);
     this.state = {
       gaap: 17.9,
-      cash: 9.6,
+      cash: 9.5,
       gaapCount: 15.6,
       cashCount: 7.5,
       complete: false,

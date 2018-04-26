@@ -33,7 +33,7 @@ class Dough2016 extends React.Component {
               ],
               datasets: [
                 {
-                  data: [30, 7, 39, 14, 11],
+                  data: [30, 7, 38, 14, 11],
                   backgroundColor: [
                     "#231f20",
                     "#008996",
