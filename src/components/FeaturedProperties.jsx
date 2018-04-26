@@ -42,7 +42,7 @@ class FeaturedProperties extends React.Component {
             renderCenterLeftControls={({ previousSlide }) => {
               return (
                 <img
-                  style={{ "margin-left": "470px" }}
+                  style={{ "marginLeft": "470px" }}
                   src={chevronLeft}
                   onClick={previousSlide}
                   className="chevron"
