@@ -38,14 +38,14 @@ export default class MobileProperties extends React.Component {
             </div>
           </li>
 
-          <li><div id='mob-purple' className='mobile-bubble'></div>
+          <li><div id='mob-green' className='mobile-bubble'></div>
             <div className='mobile-bubble-copy'>The extended promenade offers waterfront
               dining and retail options, designated areas for events, pop-ups and programming,
               and multiple viewing points with spectacular unobstructed views of New York City.
             </div>
           </li>
 
-          <li><div id='mob-green' className='mobile-bubble'></div>
+          <li><div id='mob-purple' className='mobile-bubble'></div>
           <div className='mobile-bubble-copy'>Jersey City Ranks 5th for best public
              transportation in the U.S. <br/>&mdash;Business Insider
           </div>

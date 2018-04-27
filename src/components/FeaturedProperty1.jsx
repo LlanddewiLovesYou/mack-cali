@@ -40,7 +40,7 @@ class FeaturedProperty1 extends React.Component {
           Spanning 4.3 million square feet of office and retail space, and with
           another 1.1 million square feet planned, Harborside and its six state-of-the-art
           class A buildings underscore the distinctive character of the Jersey City
-          waterfront— an unrivaled destination.
+          waterfront—an unrivaled destination.
         </div>
 
       </div>

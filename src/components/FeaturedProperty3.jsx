@@ -15,7 +15,8 @@ class FeaturedProperty3 extends React.Component {
     return (
       <div className='d-flex flex-column-reverse flex-md-row'>
       <div className='property3-copy-container light-copy col-md-3'>
-        <div className='property-title'>SUBURBAN IMPROVEMENTS</div>
+        <div id='suburban-title' className='property-title'>SUBURBAN IMPROVEMENTS</div>
+
         <div className='property-copy'>
           <p>
             Two years ago, we made a commitment to significantly upgrade several

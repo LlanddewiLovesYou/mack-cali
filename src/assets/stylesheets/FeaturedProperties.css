@@ -157,7 +157,7 @@
 #purple2 {
   background-color: rgba(96, 30, 106, 0.85);
   height: 160px;
-  width: 160px;
+  width: 160px;303px
   top: 60%;
   right: 20%;
   line-height: 1.2;
@@ -283,4 +283,8 @@
 .bubble-bold {
   font-size: 18px;
   display: block
+}
+
+#suburban-title {
+  margin-bottom: 20px
 }

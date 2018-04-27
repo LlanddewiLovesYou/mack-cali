@@ -52,22 +52,22 @@ export default App;
 
 const Downloads = () => (
   <section className="downloads">
-    <ul
-      style={{ margin: 0 }}
+    <div
+      style={{ margin: 0, padding: 0 }}
       className="download-nav row d-flex flex-column flex-sm-row justify-content-center align-items-center"
     >
       <a className="col-6 col-sm-4" href={report} target='_blank'>
-        <li className="download-flex">
+        <div className="download-flex">
           <img className="download-img" src={annualReport} />
           <div className='download-labels'>2017 Annual Report</div>
-        </li>
+        </div>
       </a>
       <a className="col-6 col-sm-4" href={f10k} target='_blank'>
-        <li className="download-flex">
+        <div className="download-flex">
           <img className="download-img" src={form10k} />
           <div className='download-labels'>Form 10-K</div>
-        </li>
+        </div>
       </a>
-    </ul>
+    </div>
   </section>
 )
