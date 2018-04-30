@@ -79,7 +79,6 @@
 }
 
 .property-mob-copy p {
-
   margin-bottom:15px
 }
 
@@ -157,7 +156,7 @@
 #purple2 {
   background-color: rgba(96, 30, 106, 0.85);
   height: 160px;
-  width: 160px;303px
+  width: 160px;
   top: 60%;
   right: 20%;
   line-height: 1.2;
